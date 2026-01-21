@@ -1,0 +1,44 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background: rgb(182, 176, 182);
+}
+
+#navbarr {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+    color: white;
+    background: rgb(53, 50, 50);
+}
+
+#navbarr a {
+    justify-content: space-around;
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+    padding: 27px;
+    text-decoration: none;
+}
+
+#navbarr a:hover {
+    background: #a69e9e;
+}
+
+#menu {
+    color: white;
+    margin-right: 3%;
+    margin-left: 20px;
+}
+
+#menu:hover {}
+
+#nome {
+    font-size: 26px;
+    position: relative;
+    left: 800px;
+}

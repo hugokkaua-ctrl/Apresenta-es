@@ -13,29 +13,34 @@ body {
     align-items: center;
     flex-flow: row wrap;
     color: white;
-    background: rgb(53, 50, 50);
+    background: #353232;
 }
 
 #navbarr a {
     justify-content: space-around;
     margin-left: 20px;
     color: white;
-    font-size: 18px;
-    padding: 27px;
+    font-size: 20px;
+    padding: 14px 15px 14px 15px;
     text-decoration: none;
 }
 
 #navbarr a:hover {
-    background: #a69e9e;
+    background: #848484;
 }
 
 #menu {
     color: white;
+    font-size: 25px;
+    padding: 16px;
     margin-right: 3%;
     margin-left: 20px;
 }
 
-#menu:hover {}
+#menu:hover {
+    transition: all 1.5s;
+    color: #353232;
+}
 
 #nome {
     font-size: 26px;

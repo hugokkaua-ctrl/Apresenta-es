@@ -29,6 +29,14 @@ body {
     background: #848484;
 }
 
+#nome {
+    font-size: 26px;
+    position: relative;
+    left: 800px;
+}
+
+
+/* botão de menu*/
 #menu {
     color: white;
     font-size: 25px;
@@ -42,13 +50,25 @@ body {
     color: #353232;
 }
 
-#nome {
-    font-size: 26px;
-    position: relative;
-    left: 800px;
+/*conteudo de menu*/
+
+.menus {
+    background: #353232;
+    width: 12vw;
+    height: 100vh;
 }
 
+.menus h2 {
+    color: white;
+    padding-top: 10px;
+    margin-top: 0;
+}
 
+.menus a {
+    color: white;
+}
+
+#pezinho {}
 
 
 /* Smartphones (600px para baixo) */

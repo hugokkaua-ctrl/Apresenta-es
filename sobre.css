@@ -8,6 +8,14 @@ body {
     background: rgb(182, 176, 182);
 }
 
+
+
+.pagina {
+    display: flex;
+    align-items: stretch;
+    height: 100vh;
+}
+
 #navbarr {
     display: flex;
     align-items: center;
@@ -54,8 +62,16 @@ body {
 
 .menus {
     background: #353232;
+    transition: all 1.5s;
     width: 12vw;
     height: 100vh;
+    border-right: 4px solid #242222;
+
+    z-index: 5;
+}
+
+.aparecer {
+    margin-left: 0;
 }
 
 .menus h2 {
@@ -111,3 +127,28 @@ body {
 
 /* Super Largos (Telas maiores laptops, desktops e até TVs, 1200px para cima) */
 @media only screen and (min-width: 1200px) {}
+
+
+
+/* scrollbar */
+::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(255, 255, 255, 0.3);
+}

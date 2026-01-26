@@ -19,6 +19,7 @@ body {
 #navbarr {
     display: flex;
     align-items: center;
+    align-items: center;
     flex-flow: row wrap;
     color: white;
     background: #353232;
@@ -28,7 +29,7 @@ body {
     justify-content: space-around;
     margin-left: 20px;
     color: white;
-    font-size: 20px;
+    font-size: 23px;
     padding: 14px 15px 14px 15px;
     text-decoration: none;
 }
@@ -38,7 +39,9 @@ body {
 }
 
 #nome {
-    font-size: 26px;
+    font-size: 35px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
     position: relative;
     left: 800px;
 }
@@ -47,10 +50,9 @@ body {
 /* botão de menu*/
 #menu {
     color: white;
-    font-size: 25px;
-    padding: 16px;
+    padding: 20px;
     margin-right: 3%;
-    margin-left: 20px;
+    margin-left: 3%;
 }
 
 #menu:hover {
@@ -61,6 +63,9 @@ body {
 /*conteudo de menu*/
 
 .menus {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
     background: #353232;
     transition: all 1.5s;
     width: 12vw;
@@ -85,6 +90,9 @@ body {
 }
 
 #pezinho {}
+
+
+
 
 
 /* Smartphones (600px para baixo) */

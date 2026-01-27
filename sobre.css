@@ -16,6 +16,8 @@ body {
     height: 100vh;
 }
 
+
+/*navbarr com os elementos principais*/
 #navbarr {
     display: flex;
     align-items: center;
@@ -60,38 +62,57 @@ body {
     color: #353232;
 }
 
-/*conteudo de menu*/
+/*conteudo de menu lateral*/
 
-.menus {
+#menus {
+    position: fixed;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     background: #353232;
-    transition: all 1.5s;
-    width: 12vw;
+    transition: all 0.8s;
+    width: 250px;
+    margin-left: -250px;
     height: 100vh;
     border-right: 4px solid #242222;
-
-    z-index: 5;
+    z-index: 1000;
 }
 
-.aparecer {
+#menus.aparecer {
     margin-left: 0;
 }
 
-.menus h2 {
+
+#menus a {
+    text-decoration: none;
+    margin-top: 25px;
+    font-size: 20px;
+    color: white;
+}
+
+
+/*roda pe do menu lateral*/
+#pezinho {
+    margin-top: 405px;
+}
+
+
+#pezinho a {}
+
+
+/*titulo do menu lateral*/
+#menu-titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid 4px #242222;
+    width: 100%;
+}
+
+#menu-titulo h2 {
     color: white;
     padding-top: 10px;
-    margin-top: 0;
 }
-
-.menus a {
-    color: white;
-}
-
-#pezinho {}
-
-
 
 
 

@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
@@ -12,8 +12,7 @@
 <body>
     <div>
         <nav id="navbarr">
-
-            <a id="menu" href="#">
+            <a onclick="AtivarMenu()" id="BotaoMenu" class="aparecer">
                 <i class="fa-solid fa-bars"></i>
             </a>
 
@@ -25,14 +24,19 @@
             <h2 id="nome">Hugo Kauã</h2>
         </nav>
 
-        <section class="menus">
-            <h2>Faça sua busca</h2>
+
+        <section id="menus">
+            <div id="menu-titulo">
+                <h2>Faça sua busca</h2>
+            </div>
 
             <a href="#">conteudo</a>
             <a href="#">conteudo</a>
             <a href="#">conteudo</a>
 
-            <a id="pezinho" href="#">SAIR</a>
+            <div id="pezinho">
+                <a href="#">SAIR</a>
+            </div>
         </section>
     </div>
 </body>

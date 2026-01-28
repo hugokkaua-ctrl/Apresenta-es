@@ -29,10 +29,10 @@ body {
 
 #navbarr a {
     justify-content: space-around;
-    margin-left: 20px;
+    margin-left: 40px;
     color: white;
     font-size: 23px;
-    padding: 14px 15px 14px 15px;
+    padding: 12px 20px 12px 20px;
     text-decoration: none;
 }
 
@@ -42,8 +42,8 @@ body {
 
 #nome {
     font-size: 35px;
-    padding-bottom: 10px;
-    margin-bottom: 10px;
+    padding-bottom: 11px;
+    margin-bottom: 14px;
     position: relative;
     left: 800px;
 }
@@ -52,7 +52,8 @@ body {
 /* botão de menu*/
 #menu {
     color: white;
-    padding: 20px;
+    font-size: 45px;
+    padding: 24px;
     margin-right: 3%;
     margin-left: 3%;
 }
@@ -69,35 +70,57 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
+    text-align: center;
     background: #353232;
-    transition: all 0.8s;
-    width: 250px;
-    margin-left: -250px;
+    transition: all 0.2s;
+    width: 230px;
+    margin-left: -230px;
     height: 100vh;
     border-right: 4px solid #242222;
-    z-index: 1000;
+    z-index: 3;
 }
 
+/*conecçao do butao menu com o menu lateral*/
 #menus.aparecer {
     margin-left: 0;
 }
 
-
 #menus a {
     text-decoration: none;
+    padding: 15px 70px 15px 70px;
     margin-top: 25px;
-    font-size: 20px;
+    font-size: 23px;
     color: white;
+}
+
+#menus a:hover {
+    color: #242222;
+    background: #848484;
 }
 
 
 /*roda pe do menu lateral*/
 #pezinho {
-    margin-top: 405px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    border-top: #242222 4px solid;
+    width: 100%;
+    margin-top: 300px;
+}
+
+#pezinho a {
+    margin-top: 0;
+    padding: 20px 86px 20px 86px;
+}
+
+#pezinho a:hover {
+    color: #242222;
+    background: #848484;
 }
 
 
-#pezinho a {}
 
 
 /*titulo do menu lateral*/
@@ -111,7 +134,7 @@ body {
 
 #menu-titulo h2 {
     color: white;
-    padding-top: 10px;
+    padding-top: 0;
 }
 
 

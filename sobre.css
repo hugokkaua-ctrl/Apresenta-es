@@ -63,6 +63,8 @@ body {
     color: #353232;
 }
 
+
+
 /*conteudo de menu lateral*/
 
 #menus {
@@ -85,10 +87,12 @@ body {
     margin-left: 0;
 }
 
+/*itens menu lateral*/
 #menus a {
     text-decoration: none;
     padding: 15px 70px 15px 70px;
-    margin-top: 25px;
+    border-bottom: #242222 solid 4px;
+    margin-top: 1px;
     font-size: 23px;
     color: white;
 }
@@ -107,7 +111,7 @@ body {
     justify-content: center;
     border-top: #242222 4px solid;
     width: 100%;
-    margin-top: 300px;
+    margin-top: 350px;
 }
 
 #pezinho a {
@@ -133,6 +137,7 @@ body {
 }
 
 #menu-titulo h2 {
+    font-size: 25px;
     color: white;
     padding-top: 0;
 }
@@ -166,6 +171,9 @@ body {
         text-decoration: none;
         display: none;
     }
+
+
+
 }
 
 /* Dispositivos um pouco maiores, mas ainda pequenos (Pequenos Tablets e Smartphones + largos, 600px para cima) */

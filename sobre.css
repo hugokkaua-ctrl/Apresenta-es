@@ -23,14 +23,15 @@ body {
     align-items: center;
     align-items: center;
     flex-flow: row wrap;
-    color: white;
+    color: #fbf7f7;
     background: #353232;
+    border-bottom: #fbf7f7 solid 3px;
 }
 
 #navbarr a {
     justify-content: space-around;
     margin-left: 40px;
-    color: white;
+    color: #fbf7f7;
     font-size: 23px;
     padding: 12px 20px 12px 20px;
     text-decoration: none;
@@ -40,18 +41,24 @@ body {
     background: #848484;
 }
 
+#imagem1 {
+    width: 100px;
+    margin-left: 350px;
+
+}
+
 #nome {
     font-size: 35px;
     padding-bottom: 11px;
     margin-bottom: 14px;
     position: relative;
-    left: 800px;
+    left: 350px;
 }
 
 
 /* botão de menu*/
 #menu {
-    color: white;
+    color: #fbf7f7;
     font-size: 45px;
     padding: 24px;
     margin-right: 3%;
@@ -94,7 +101,7 @@ body {
     border-bottom: #242222 solid 4px;
     margin-top: 1px;
     font-size: 23px;
-    color: white;
+    color: #fbf7f7;
 }
 
 #menus a:hover {
@@ -138,7 +145,7 @@ body {
 
 #menu-titulo h2 {
     font-size: 25px;
-    color: white;
+    color: #fbf7f7;
     padding-top: 0;
 }
 
@@ -150,7 +157,7 @@ body {
         display: flex;
         align-items: center;
         flex-flow: row wrap;
-        color: white;
+        color: #fbf7f7;
         background: rgb(53, 50, 50);
     }
 

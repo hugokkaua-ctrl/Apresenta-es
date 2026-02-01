@@ -25,7 +25,7 @@ body {
     flex-flow: row wrap;
     color: #fbf7f7;
     background: #353232;
-    border-bottom: #fbf7f7 solid 3px;
+    border-bottom: #0a0a0a solid 3px;
 }
 
 #navbarr a {
@@ -150,6 +150,24 @@ body {
 }
 
 
+
+/*segunda parte que fala sobre mim*/
+.informacoes {
+    padding-top: 40px;
+    display: flex;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.falando-de-mim {
+    flex: 35%;
+    background: #242222;
+    color: #fbf7f7;
+    box-shadow: 0, 25px, 35px, rgba(0, 0, 0, 0.5);
+
+}
+
+.imagem-minha {}
 
 /* Smartphones (600px para baixo) */
 @media only screen and (max-width: 600px) {

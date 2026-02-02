@@ -153,21 +153,26 @@ body {
 
 /*segunda parte que fala sobre mim*/
 .informacoes {
-    padding-top: 40px;
     display: flex;
+    flex-flow: row wrap;
+    margin-top: 30px;
     margin-left: 4%;
     margin-right: 4%;
-}
-
-.falando-de-mim {
-    flex: 35%;
     background: #242222;
     color: #fbf7f7;
     box-shadow: 0, 25px, 35px, rgba(0, 0, 0, 0.5);
+}
+
+.falando-de-mim {
+
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+    flex: 55%;
+
 
 }
 
-.imagem-minha {}
+.minha-foto {}
 
 /* Smartphones (600px para baixo) */
 @media only screen and (max-width: 600px) {

@@ -184,8 +184,29 @@ body {
     font-size: 23px;
 }
 
-.falando-de-mim a {
+/*botao de contato*/
+#contato {
+    margin-top: 50px;
+    margin-left: 3%;
+}
+
+#contato a {
+    box-shadow: 0 12px 20px (rgba(0, 0, 0, 0.5));
     text-decoration: none;
+    color: #242222;
+    background: #fbf7f7;
+    padding: 20px;
+    border-radius: 65px;
+    font-size: 45px;
+}
+
+#contato a:hover {
+    transform: translateY(-20px);
+    cursor: pointer;
+    background: #0a0a0a;
+    color: #fbf7f7;
+    border: 2px solid #fbf7f7;
+
 }
 
 .minha-foto {}

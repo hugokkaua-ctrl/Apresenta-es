@@ -161,6 +161,8 @@ body {
     background: #242222;
     color: #fbf7f7;
     box-shadow: 0, 25px, 35px, rgba(0, 0, 0, 0.5);
+    padding: 15px 5px 15px 5px;
+    border-radius: 10px;
 }
 
 .falando-de-mim {
@@ -202,6 +204,7 @@ body {
 
 #contato a:hover {
     transform: translateY(-20px);
+    transition: ease 0.2s;
     cursor: pointer;
     background: #0a0a0a;
     color: #fbf7f7;
@@ -209,7 +212,14 @@ body {
 
 }
 
-.minha-foto {}
+.minha-foto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2%;
+
+
+}
 
 /* Smartphones (600px para baixo) */
 @media only screen and (max-width: 600px) {

@@ -7,6 +7,4 @@ function AtivarMenu() {
     addEventListener("click", function () {
         menulateral.classList.toggle("aparecer")
     })
-
-
 }

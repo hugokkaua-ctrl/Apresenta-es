@@ -41,6 +41,7 @@ body {
     background: #848484;
 }
 
+
 #imagem1 {
     width: 100px;
     margin-left: 350px;
@@ -48,11 +49,17 @@ body {
 }
 
 #nome {
-    font-size: 35px;
+    font-size: 38px;
     padding-bottom: 11px;
     margin-bottom: 14px;
     position: relative;
-    left: 350px;
+    left: 320px;
+    top: -100px;
+    transition: ease 2s;
+}
+
+#navbarr:hover #nome {
+    top: 0;
 }
 
 
@@ -184,6 +191,10 @@ body {
     margin-top: 0;
     padding-top: 5px;
     font-size: 23px;
+}
+
+#localizaçao {
+    margin-top: 5%;
 }
 
 /*botao de contato*/

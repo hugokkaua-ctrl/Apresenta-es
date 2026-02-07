@@ -8,3 +8,4 @@ function AtivarMenu() {
         menulateral.classList.toggle("aparecer")
     })
 }
+

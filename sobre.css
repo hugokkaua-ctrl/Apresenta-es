@@ -2,7 +2,9 @@
     box-sizing: border-box;
 }
 
+html,
 body {
+    overflow-x: hidden;
     padding: 0;
     margin: 0;
     background: rgb(182, 176, 182);
@@ -63,7 +65,7 @@ body {
     font-size: 60px;
     position: relative;
     left: 620px;
-    transition: ease 2s;
+    transition: ease 1.4s;
 }
 
 #navbarr:hover .nome {

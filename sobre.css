@@ -203,9 +203,7 @@ body {
     font-size: 23px;
 }
 
-#localizaçao {
-    margin-top: 5%;
-}
+
 
 /*botao de contato*/
 #contato {
@@ -238,8 +236,30 @@ body {
     justify-content: center;
     align-items: center;
     margin-right: 2%;
+}
 
+/*area com formas de me achar*/
+.descobrir {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 190px;
+    margin-top: 5%;
+}
 
+.descobrir a {
+    padding: 2px;
+}
+
+.descobrir a {
+    color: #fbf7f7;
+    text-decoration: none;
+}
+
+.descobrir a:hover {
+    background: rgba(255, 255, 255, 0.1);
+    text-decoration: underline;
 }
 
 /* Smartphones (600px para baixo) */

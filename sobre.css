@@ -262,6 +262,40 @@ body {
     text-decoration: underline;
 }
 
+
+
+/*base dos projetos*/
+.projetos {
+    padding-top: 45px;
+}
+
+.projetos h1 {
+    text-align: center;
+}
+
+.cards {
+    padding-top: 45px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+/*itens do card*/
+.calculadora {
+    color: #fbf7f7;
+    background: #242222;
+}
+
+.App_tarefas {
+    color: #fbf7f7;
+    background: #242222;
+}
+
+.pagina_login {
+    color: #fbf7f7;
+    background: #242222;
+}
+
 /* Smartphones (600px para baixo) */
 @media only screen and (max-width: 600px) {
     #navbarr {

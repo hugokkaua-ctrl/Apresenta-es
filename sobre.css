@@ -283,6 +283,21 @@ body {
     justify-content: space-evenly;
 }
 
+.cards div:hover {
+    transform: translateY(-3px);
+    background: #0a0a0a;
+    transition: ease 0.3s;
+}
+
+.cards h2 {
+    font-size: 36px;
+}
+
+.cards p {
+    font-size: 19px;
+    text-align: center;
+}
+
 /*itens do card*/
 .calculadora {
     color: #fbf7f7;
@@ -290,11 +305,12 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    height: 300px;
+    height: 355px;
     width: 350px;
     padding: 10px;
     border-radius: 25px;
 }
+
 
 .App_tarefas {
     color: #fbf7f7;
@@ -302,7 +318,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    height: 300px;
+    height: 355px;
     width: 350px;
     padding: 10px;
     border-radius: 25px;
@@ -314,7 +330,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    height: 300px;
+    height: 355px;
     width: 350px;
     padding: 10px;
     border-radius: 25px;

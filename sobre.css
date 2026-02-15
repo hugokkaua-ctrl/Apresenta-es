@@ -23,11 +23,12 @@ body {
 #navbarr {
     display: flex;
     align-items: center;
-    align-items: center;
     flex-flow: row wrap;
     color: #fbf7f7;
     background: #353232;
     border-bottom: #0a0a0a solid 3px;
+    height: 16vh;
+    width: 100%;
 }
 
 #navbarr a {
@@ -35,7 +36,7 @@ body {
     margin-left: 40px;
     color: #fbf7f7;
     font-size: 23px;
-    padding: 12px 20px 12px 20px;
+    padding: 12px 25px 12px 25px;
     text-decoration: none;
 }
 
@@ -74,15 +75,24 @@ body {
 
 
 /* botão de menu*/
-#menu {
+#area-menu-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#area-menu-btn a {
+    padding: 26px;
+}
+
+#BotaoMenu i {
     color: #fbf7f7;
-    font-size: 45px;
-    padding: 24px;
+    font-size: 37px;
     margin-right: 3%;
     margin-left: 3%;
 }
 
-#menu:hover {
+#BotaoMenu:hover {
     transition: all 1.5s;
     color: #353232;
 }
@@ -103,7 +113,7 @@ body {
     margin-left: -230px;
     height: 100vh;
     border-right: 4px solid #242222;
-    z-index: 3;
+    z-index: 1000;
 }
 
 /*conecçao do butao menu com o menu lateral*/

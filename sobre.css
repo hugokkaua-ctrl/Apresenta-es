@@ -308,6 +308,13 @@ body {
     text-align: center;
 }
 
+.cards img {
+    text-align: center;
+    width: 200px;
+    padding: 0;
+    margin: 0;
+}
+
 /*itens do card*/
 .calculadora {
     color: #fbf7f7;
@@ -315,7 +322,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    height: 355px;
+    height: 405px;
     width: 350px;
     padding: 10px;
     border-radius: 25px;
@@ -328,7 +335,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    height: 355px;
+    height: 405px;
     width: 350px;
     padding: 10px;
     border-radius: 25px;
@@ -340,7 +347,7 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    height: 355px;
+    height: 405px;
     width: 350px;
     padding: 10px;
     border-radius: 25px;

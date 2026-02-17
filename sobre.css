@@ -276,7 +276,7 @@ body {
 
 /*base dos projetos*/
 .projetos {
-    padding-top: 45px;
+    padding-top: 34px;
 }
 
 .projetos h1 {
@@ -297,6 +297,7 @@ body {
     transform: translateY(-3px);
     background: #0a0a0a;
     transition: ease 0.3s;
+    cursor: pointer;
 }
 
 .cards h2 {
@@ -310,9 +311,17 @@ body {
 
 .cards img {
     text-align: center;
-    width: 200px;
+    width: 160px;
     padding: 0;
     margin: 0;
+}
+
+.areaP {
+    padding: -5px;
+    margin-top: 2%;
+    background: #393939;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 /*itens do card*/
@@ -322,7 +331,8 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    height: 405px;
+    justify-content: space-around;
+    height: 425px;
     width: 350px;
     padding: 10px;
     border-radius: 25px;
@@ -335,7 +345,8 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    height: 405px;
+    justify-content: space-around;
+    height: 425px;
     width: 350px;
     padding: 10px;
     border-radius: 25px;
@@ -347,7 +358,8 @@ body {
     display: flex;
     flex-flow: column wrap;
     align-items: center;
-    height: 405px;
+    justify-content: space-around;
+    height: 425px;
     width: 350px;
     padding: 10px;
     border-radius: 25px;

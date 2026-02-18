@@ -2,12 +2,15 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nosifer&family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rye&family=Titan+One&display=swap');
+
 html,
 body {
     overflow-x: hidden;
     padding: 0;
     margin: 0;
     background: rgb(182, 176, 182);
+    font-family: "Roboto", sans-serif;
 }
 
 
@@ -183,8 +186,8 @@ body {
     display: flex;
     flex-flow: row wrap;
     margin-top: 30px;
-    margin-left: 4%;
-    margin-right: 4%;
+    margin-left: 3%;
+    margin-right: 3%;
     background: #242222;
     color: #fbf7f7;
     box-shadow: 0, 25px, 35px, rgba(0, 0, 0, 0.5);
@@ -252,14 +255,15 @@ body {
 .descobrir {
     display: flex;
     flex-flow: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     margin-right: 190px;
     margin-top: 5%;
 }
 
-.descobrir a {
-    padding: 2px;
+.descobrir p {
+    margin-right: 2%;
+    border-right: solid 2px #464646;
 }
 
 .descobrir a {
@@ -316,6 +320,19 @@ body {
     margin: 0;
 }
 
+.cards a {
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 2%;
+    font-size: 20px;
+    text-decoration: underline;
+    color: #fbf7f7;
+}
+
+.cards a:hover {
+    background: #464646;
+}
+
 .areaP {
     padding: -5px;
     margin-top: 2%;
@@ -332,7 +349,7 @@ body {
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    height: 425px;
+    height: 445px;
     width: 350px;
     padding: 10px;
     border-radius: 25px;
@@ -346,7 +363,7 @@ body {
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    height: 425px;
+    height: 445px;
     width: 350px;
     padding: 10px;
     border-radius: 25px;
@@ -359,7 +376,7 @@ body {
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    height: 425px;
+    height: 445px;
     width: 350px;
     padding: 10px;
     border-radius: 25px;

@@ -18,7 +18,7 @@ body {
 .pagina {
     display: flex;
     align-items: stretch;
-    height: 100vh;
+    height: 100%;
 }
 
 
@@ -30,7 +30,7 @@ body {
     color: #fbf7f7;
     background: #353232;
     border-bottom: #0a0a0a solid 3px;
-    height: 16vh;
+    height: 13vh;
     width: 100%;
 }
 
@@ -112,8 +112,8 @@ body {
     text-align: center;
     background: #353232;
     transition: all 0.2s;
-    width: 230px;
-    margin-left: -230px;
+    width: 250px;
+    margin-left: -250px;
     height: 100vh;
     border-right: 4px solid #242222;
     z-index: 1000;
@@ -315,30 +315,46 @@ body {
 
 .cards img {
     text-align: center;
-    width: 160px;
+    width: 170px;
     padding: 0;
     margin: 0;
 }
 
-.cards a {
-    padding: 5px;
-    border-radius: 10px;
-    margin-top: 2%;
-    font-size: 20px;
-    text-decoration: underline;
-    color: #fbf7f7;
-}
-
-.cards a:hover {
-    background: #464646;
-}
-
+/*area de fala dos projeos*/
 .areaP {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
     padding: -5px;
-    margin-top: 2%;
     background: #393939;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/*area de organiza os botoes dos projetos*/
+.bta {
+    margin-top: 2%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+
+.bta a {
+    background: #fbf7f7;
+    padding: 5px;
+    margin-left: 25px;
+    margin-right: 25px;
+    border-radius: 10px;
+    font-size: 27px;
+    text-decoration: none;
+    color: #0a0a0a;
+}
+
+.bta a:hover {
+    background: #0a0a0a;
+    color: #fbf7f7;
+    border: solid 1px #fbf7f7;
 }
 
 /*itens do card*/
@@ -349,8 +365,8 @@ body {
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    height: 445px;
-    width: 350px;
+    height: 475px;
+    width: 400px;
     padding: 10px;
     border-radius: 25px;
 }
@@ -363,8 +379,8 @@ body {
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    height: 445px;
-    width: 350px;
+    height: 475px;
+    width: 400px;
     padding: 10px;
     border-radius: 25px;
 }
@@ -376,8 +392,8 @@ body {
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    height: 445px;
-    width: 350px;
+    height: 475px;
+    width: 400px;
     padding: 10px;
     border-radius: 25px;
 }

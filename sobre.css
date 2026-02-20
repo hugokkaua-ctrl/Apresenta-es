@@ -41,6 +41,7 @@ body {
     font-size: 23px;
     padding: 12px 25px 12px 25px;
     text-decoration: none;
+    border-radius: 5px;
 }
 
 #navbarr a:hover {
@@ -68,7 +69,7 @@ body {
     margin-bottom: 0;
     font-size: 60px;
     position: relative;
-    left: 620px;
+    left: 710px;
     transition: ease 1.4s;
 }
 
@@ -325,7 +326,10 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: -5px;
+    padding: 5px;
+    margin-right: 2%;
+    margin-left: 2%;
+    margin-bottom: 3%;
     background: #393939;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 15px rgba(0, 0, 0, 0.1);
@@ -342,10 +346,10 @@ body {
 
 .bta a {
     background: #fbf7f7;
-    padding: 5px;
+    padding: 10px;
     margin-left: 25px;
     margin-right: 25px;
-    border-radius: 10px;
+    border-radius: 20px;
     font-size: 27px;
     text-decoration: none;
     color: #0a0a0a;
@@ -365,8 +369,8 @@ body {
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    height: 475px;
-    width: 400px;
+    height: 485px;
+    width: 430px;
     padding: 10px;
     border-radius: 25px;
 }
@@ -379,8 +383,8 @@ body {
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    height: 475px;
-    width: 400px;
+    height: 485px;
+    width: 430px;
     padding: 10px;
     border-radius: 25px;
 }
@@ -392,11 +396,14 @@ body {
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    height: 475px;
-    width: 400px;
+    height: 485px;
+    width: 430px;
     padding: 10px;
     border-radius: 25px;
 }
+
+/*card de habilidades*/
+.cardsH {}
 
 /* Smartphones (600px para baixo) */
 @media only screen and (max-width: 600px) {

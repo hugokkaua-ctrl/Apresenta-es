@@ -403,7 +403,31 @@ body {
 }
 
 /*card de habilidades*/
-.cardsH {}
+.habilidades {
+    padding-top: 65px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.habilidades h1 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    font-size: 70px;
+}
+
+.habilidades p {
+    margin-top: 3px;
+    padding-top: 0;
+    font-size: 25px;
+}
+
+.cardsH {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 2.5%;
+}
 
 /* Smartphones (600px para baixo) */
 @media only screen and (max-width: 600px) {

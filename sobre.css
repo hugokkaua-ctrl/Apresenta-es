@@ -404,7 +404,7 @@ body {
 
 /*card de habilidades*/
 .habilidades {
-    padding-top: 65px;
+    padding-top: 20px;
     margin-left: 3%;
     margin-right: 3%;
 }
@@ -451,12 +451,30 @@ body {
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
+    cursor: pointer;
 }
 
 .cardsH div:hover {
     transform: translateY(-5px);
     border: 3px solid #fbf7f7;
 }
+
+/*Formação e estudos*/
+.forma-estud {
+    padding-top: 4%;
+}
+
+.forma-estud h1 {
+    font-size: 50px;
+    text-align: right;
+    margin-right: 4%;
+}
+
+/*formação*/
+.formacao {}
+
+/*estudos*/
+.estudos {}
 
 /* Smartphones (600px para baixo) */
 @media only screen and (max-width: 600px) {

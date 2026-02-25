@@ -470,8 +470,37 @@ body {
     margin-right: 4%;
 }
 
+/*caixas do form-stud*/
+#itens {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
 /*formação*/
 .formacao {}
+
+.formacao img {
+    width: 60px;
+}
+
+.forma {
+    height: auto;
+    width: 350px;
+    background: #353232;
+    padding: 10px;
+    margin-top: 10%;
+}
+
+
+.cursos {
+    height: auto;
+    width: 350px;
+    background: #353232;
+    padding: 10px;
+    margin-top: 10%;
+}
 
 /*estudos*/
 .estudos {}

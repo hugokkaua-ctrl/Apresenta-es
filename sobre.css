@@ -479,27 +479,52 @@ body {
 }
 
 /*formação*/
-.formacao {}
-
-.formacao img {
-    width: 60px;
+.formacao h2 {
+    font-size: 45px;
+    letter-spacing: 2px;
 }
 
+.formacao h3 {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+
 .forma {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     height: auto;
-    width: 350px;
+    width: 500px;
     background: #353232;
-    padding: 10px;
-    margin-top: 10%;
+    color: #fbf7f7;
+    padding: 25px;
+    border-radius: 25px;
+    margin-top: 6%;
+    cursor: pointer;
+}
+
+.forma:hover {
+    transform: translateY(-5px);
 }
 
 
 .cursos {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
     height: auto;
-    width: 350px;
+    width: 500px;
     background: #353232;
-    padding: 10px;
+    color: #fbf7f7;
+    padding: 25px;
+    border-radius: 25px;
     margin-top: 10%;
+    cursor: pointer;
+}
+
+.cursos:hover {
+    transform: translateY(-5px);
 }
 
 /*estudos*/

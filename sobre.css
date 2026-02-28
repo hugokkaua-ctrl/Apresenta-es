@@ -264,7 +264,6 @@ body {
 
 .descobrir p {
     margin-right: 2%;
-    border-right: solid 2px #464646;
 }
 
 .descobrir a {
@@ -493,19 +492,23 @@ body {
 
 .formacao h3 {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
 }
 
+.formacao p {
+    font-size: 20px;
+}
 
 .forma {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: auto;
-    width: 550px;
+    width: 600px;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.6);
     background: #353232;
     color: #fbf7f7;
-    padding: 25px;
+    padding: 35px;
     border-radius: 25px;
     margin-top: 6%;
     cursor: pointer;
@@ -522,10 +525,11 @@ body {
     justify-content: space-evenly;
     align-items: center;
     height: auto;
-    width: 550px;
+    width: 600px;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.6);
     background: #353232;
     color: #fbf7f7;
-    padding: 25px;
+    padding: 35px;
     border-radius: 25px;
     margin-top: 10%;
     cursor: pointer;
@@ -551,7 +555,7 @@ body {
 }
 
 .Estudos h3 {
-    font-size: 25px;
+    font-size: 40px;
 }
 
 .Estudos div {
@@ -559,6 +563,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.6);
     background: #353232;
     padding: 15px;
     width: 550px;

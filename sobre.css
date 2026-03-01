@@ -129,6 +129,7 @@ body {
 #menus a {
     text-decoration: none;
     padding: 15px 70px 15px 70px;
+    width: 100%;
     border-bottom: #242222 solid 4px;
     margin-top: 1px;
     font-size: 23px;
@@ -149,10 +150,11 @@ body {
     justify-content: center;
     border-top: #242222 4px solid;
     width: 100%;
-    margin-top: 350px;
+    margin-top: 420px;
 }
 
 #pezinho a {
+    border-bottom: none;
     margin-top: 0;
     padding: 20px 86px 20px 86px;
 }
@@ -160,6 +162,7 @@ body {
 #pezinho a:hover {
     color: #242222;
     background: #848484;
+    width: 100%;
 }
 
 
@@ -468,8 +471,7 @@ body {
 }
 
 .forma-estud h1 {
-
-    font-size: 50px;
+    font-size: 60px;
     text-align: right;
     margin-right: 4%;
 }
@@ -486,8 +488,6 @@ body {
 .formacao h2 {
     font-size: 40px;
     letter-spacing: 2px;
-    margin-bottom: 0;
-    padding-bottom: 0;
 }
 
 .formacao h3 {
@@ -541,36 +541,40 @@ body {
 }
 
 /*estudos*/
-.Estudos {
+.estudando {
+    background: #353232;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: flex-start;
     flex-flow: column wrap;
+    padding: 10px;
+    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.6);
+    border-radius: 25px;
 }
 
 .Estudos h2 {
     font-size: 40px;
-    margin-bottom: -30px;
+    margin-bottom: 30px;
     padding-bottom: 0;
 }
 
 .Estudos h3 {
-    font-size: 40px;
+    font-size: 45px;
 }
 
-.Estudos div {
+.estudando div {
     color: #fbf7f7;
+    margin-top: 5%;
+    margin-left: 10%;
     display: flex;
-    align-items: center;
     justify-content: space-around;
-    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.6);
-    background: #353232;
-    padding: 15px;
-    width: 550px;
-    height: 180px;
-    border-radius: 20px;
-    margin-top: 8%;
+    align-items: center;
     transition: ease 0.5;
+    width: 80%;
+}
+
+.Estudos img {
+    margin-right: 30%;
 }
 
 .Estudos div:hover {

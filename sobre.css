@@ -584,31 +584,121 @@ body {
 
 /* Smartphones (600px para baixo) */
 @media only screen and (max-width: 600px) {
+
+    /*navbarr com os elementos principais*/
     #navbarr {
         display: flex;
         align-items: center;
+        justify-content: center;
         flex-flow: row wrap;
         color: #fbf7f7;
-        background: rgb(53, 50, 50);
-    }
-
-    #nome {
-        font-size: 40px;
-        margin: 15px;
-        padding: 10px;
-        position: relative;
-        left: 30%;
+        background: #353232;
+        border-bottom: #0a0a0a solid 3px;
+        height: 20vh;
+        width: 100%;
     }
 
     #navbarr a {
-        float: left;
-        margin-left: 20px;
-        color: white;
-        font-size: 18px;
-        padding: 27px;
+        justify-content: space-around;
+        margin-left: 40px;
+        color: #fbf7f7;
+        font-size: 20px;
+        padding: 12px 25px 12px 25px;
         text-decoration: none;
+        border-radius: 5px;
+    }
+
+    #navbarr a:hover {
+        background: #848484;
+    }
+
+
+    #imagem1 {
+        display: none;
+        width: 100px;
+        margin-left: 350px;
+
+    }
+
+    /*nome*/
+    .name-area {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nome {
+        font-size: 60px;
+    }
+
+    #navbarr:hover .nome {
         display: none;
     }
+
+
+    /* botão de menu*/
+    #area-menu-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #area-menu-btn a {
+        padding: 26px;
+    }
+
+    #BotaoMenu i {
+        color: #fbf7f7;
+        font-size: 37px;
+        margin-right: 3%;
+        margin-left: 3%;
+    }
+
+    #BotaoMenu:hover {
+        transition: all 1.5s;
+        color: #353232;
+    }
+
+
+
+    /*conteudo de menu lateral*/
+
+    #menus {
+        position: fixed;
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        text-align: center;
+        background: #353232;
+        transition: all 0.2s;
+        width: 250px;
+        margin-left: -250px;
+        height: 100vh;
+        border-right: 4px solid #242222;
+        z-index: 1000;
+    }
+
+    /*conecçao do butao menu com o menu lateral*/
+    #menus.aparecer {
+        margin-left: 0;
+    }
+
+    /*itens menu lateral*/
+    #menus a {
+        text-decoration: none;
+        padding: 15px 70px 15px 70px;
+        width: 100%;
+        border-bottom: #242222 solid 4px;
+        margin-top: 1px;
+        font-size: 23px;
+        color: #fbf7f7;
+    }
+
+    #menus a:hover {
+        color: #242222;
+        background: #848484;
+    }
+
 
 
 

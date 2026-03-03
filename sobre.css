@@ -582,79 +582,79 @@ body {
     transform: translateY(-5px);
 }
 
+#navbarr2 {
+    display: none;
+}
+
 /* Smartphones (600px para baixo) */
 @media only screen and (max-width: 600px) {
 
     /*navbarr com os elementos principais*/
     #navbarr {
+        display: none;
+    }
+
+    #navbarr2 {
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-flow: row wrap;
+        flex-flow: column;
         color: #fbf7f7;
         background: #353232;
         border-bottom: #0a0a0a solid 3px;
-        height: 20vh;
+        height: 35vh;
         width: 100%;
     }
 
-    #navbarr a {
+    #navbarr2 a {
         justify-content: space-around;
-        margin-left: 40px;
         color: #fbf7f7;
-        font-size: 20px;
-        padding: 12px 25px 12px 25px;
+        margin-left: 5%;
+        font-size: 35px;
+        padding: 10px 15px 10px 15px;
         text-decoration: none;
         border-radius: 5px;
     }
 
-    #navbarr a:hover {
+    #navbarr2 a:hover {
         background: #848484;
     }
 
 
-    #imagem1 {
-        display: none;
-        width: 100px;
-        margin-left: 350px;
-
+    .org {
+        padding-top: 0;
+        margin-top: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     /*nome*/
-    .name-area {
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    .name-area2 {
+        margin-bottom: 0;
+        padding-bottom: 0;
     }
 
-    .nome {
-        font-size: 60px;
+    .nome2 {
+        font-size: 70px;
     }
-
-    #navbarr:hover .nome {
-        display: none;
-    }
-
 
     /* botão de menu*/
-    #area-menu-btn {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    #area-menu-btn2 {
+        padding: 35px;
+        margin-left: 5%;
     }
 
-    #area-menu-btn a {
-        padding: 26px;
-    }
+    #area-menu-btn2 a {}
 
-    #BotaoMenu i {
+    #BotaoMenu2 i {
         color: #fbf7f7;
-        font-size: 37px;
+        font-size: 45px;
         margin-right: 3%;
         margin-left: 3%;
     }
 
-    #BotaoMenu:hover {
+    #BotaoMenu2:hover {
         transition: all 1.5s;
         color: #353232;
     }

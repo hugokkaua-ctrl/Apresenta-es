@@ -595,6 +595,8 @@ body {
     }
 
     #navbarr2 {
+        position: fixed;
+        z-index: 990;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -602,30 +604,21 @@ body {
         color: #fbf7f7;
         background: #353232;
         border-bottom: #0a0a0a solid 3px;
-        height: 35vh;
+        height: 20vh;
+        top: 0;
         width: 100%;
-    }
-
-    #navbarr2 a {
-        justify-content: space-around;
-        color: #fbf7f7;
-        margin-left: 5%;
-        font-size: 35px;
-        padding: 10px 15px 10px 15px;
-        text-decoration: none;
-        border-radius: 5px;
     }
 
     #navbarr2 a:hover {
         background: #848484;
     }
 
-
+    /*organização do navbarr*/
     .org {
         padding-top: 0;
         margin-top: 0;
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
         align-items: center;
     }
 
@@ -636,33 +629,30 @@ body {
     }
 
     .nome2 {
-        font-size: 70px;
+        font-size: 60px;
+        margin-right: 100px;
     }
 
     /* botão de menu*/
-    #area-menu-btn2 {
-        padding: 35px;
-        margin-left: 5%;
-    }
-
     #area-menu-btn2 a {}
 
     #BotaoMenu2 i {
+        background: #5a5a5a;
         color: #fbf7f7;
         font-size: 45px;
-        margin-right: 3%;
-        margin-left: 3%;
+        padding: 20px;
+        border-radius: 20px;
     }
 
-    #BotaoMenu2:hover {
-        transition: all 1.5s;
+    #BotaoMenu2 i:hover {
+        transform: translateY(-2px);
+        transition: all 0.5s;
         color: #353232;
     }
 
 
 
     /*conteudo de menu lateral*/
-
     #menus {
         position: fixed;
         display: flex;
@@ -671,8 +661,8 @@ body {
         text-align: center;
         background: #353232;
         transition: all 0.2s;
-        width: 250px;
-        margin-left: -250px;
+        width: 280px;
+        margin-left: -280px;
         height: 100vh;
         border-right: 4px solid #242222;
         z-index: 1000;
@@ -698,6 +688,49 @@ body {
         color: #242222;
         background: #848484;
     }
+
+
+    /*roda pe do menu lateral*/
+    #pezinho {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        justify-content: center;
+        border-top: #242222 4px solid;
+        width: 100%;
+        margin-top: 500px;
+    }
+
+    #pezinho a {
+        border-bottom: none;
+        margin-top: 0;
+        padding: 20px 86px 20px 86px;
+    }
+
+    #pezinho a:hover {
+        color: #242222;
+        background: #848484;
+        width: 100%;
+    }
+
+
+
+
+    /*titulo do menu lateral*/
+    #menu-titulo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom: solid 4px #242222;
+        width: 100%;
+    }
+
+    #menu-titulo h2 {
+        font-size: 25px;
+        color: #fbf7f7;
+        padding-top: 0;
+    }
+
 
 
 

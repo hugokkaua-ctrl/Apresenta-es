@@ -734,6 +734,105 @@ body {
 
 
 
+    /*segunda parte que fala sobre mim mobile */
+    .informacoes {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin-top: 30px;
+        margin-top: 40%;
+        margin-left: 3%;
+        margin-right: 3%;
+        background: #242222;
+        color: #fbf7f7;
+        box-shadow: 0, 25px, 35px, rgba(0, 0, 0, 0.5);
+        padding: 15px 5px 15px 5px;
+        border-radius: 10px;
+    }
+
+    .falando-de-mim {
+        text-align: center;
+        margin-left: 0%;
+        margin-right: 0%;
+        flex: 55%;
+    }
+
+    .falando-de-mim h1 {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        letter-spacing: 5px;
+        font-size: 60px;
+    }
+
+    .falando-de-mim p {
+        margin-top: 0;
+        padding-top: 5px;
+        font-size: 23px;
+    }
+
+
+
+    /*botao de contato*/
+    #contato {
+        margin-top: 50px;
+        margin-left: 0;
+    }
+
+    #contato a {
+        box-shadow: 0 12px 20px (rgba(0, 0, 0, 0.5));
+        text-decoration: none;
+        color: #242222;
+        background: #fbf7f7;
+        padding: 20px;
+        border-radius: 65px;
+        font-size: 45px;
+    }
+
+    #contato a:hover {
+        transform: translateY(-20px);
+        transition: ease 0.2s;
+        cursor: pointer;
+        background: #0a0a0a;
+        color: #fbf7f7;
+        border: 2px solid #fbf7f7;
+
+    }
+
+    .minha-foto {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 0;
+    }
+
+    /*area com formas de me achar*/
+    .descobrir {
+        display: flex;
+        flex-flow: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-right: 0;
+        margin-top: 10%;
+        margin-bottom: 5%;
+    }
+
+    .descobrir p {
+        margin-right: 0;
+    }
+
+    .descobrir a {
+        color: #fbf7f7;
+        text-decoration: none;
+    }
+
+    .descobrir a:hover {
+        background: rgba(255, 255, 255, 0.1);
+        text-decoration: underline;
+    }
+
+
 
 }
 

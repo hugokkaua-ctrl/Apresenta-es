@@ -892,6 +892,134 @@ body {
         cursor: pointer;
     }
 
+    /*Formação e estudos*/
+    .forma-estud {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        padding-top: 5%;
+    }
+
+    .forma-estud h1 {
+        font-size: 58px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    /*caixas do form-stud*/
+    #itens {
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    /*formação*/
+    .formacao h2 {
+        font-size: 45px;
+        letter-spacing: 2px;
+    }
+
+    .formacao h3 {
+        font-weight: bold;
+        font-size: 30px;
+        margin-left: 2%;
+    }
+
+    .formacao p {
+        margin-left: 2%;
+        font-size: 20px;
+    }
+
+    .forma {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 500px;
+        box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.6);
+        background: #353232;
+        color: #fbf7f7;
+        padding: 20px;
+        border-radius: 25px;
+        margin-top: 6%;
+        cursor: pointer;
+        transition: ease 0.5;
+    }
+
+    .forma:hover {
+        transform: translateY(-5px);
+    }
+
+
+    .cursos {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: auto;
+        width: 500px;
+        box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.6);
+        background: #353232;
+        color: #fbf7f7;
+        padding: 20px;
+        border-radius: 25px;
+        margin-top: 10%;
+        cursor: pointer;
+        transition: ease 0.5;
+    }
+
+    .cursos:hover {
+        transform: translateY(-5px);
+    }
+
+    /*estudos*/
+
+    .estudando {
+        background: #353232;
+        text-align: center;
+        margin-top: 30px;
+        margin-left: 3.5%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-flow: column;
+        padding: 0;
+        width: 520px;
+        box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.6);
+        border-radius: 25px;
+    }
+
+    .Estudos h2 {
+        font-size: 50px;
+        margin-top: 30px;
+        margin-left: 2%;
+        text-align: left;
+        padding-bottom: 0;
+    }
+
+    .estudando h3 {
+        font-size: 45px;
+    }
+
+    .estudando div {
+        color: #fbf7f7;
+        margin-top: 5%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        transition: ease 0.5;
+        width: 80%;
+    }
+
+    .estudando img {
+        margin-right: 30%;
+    }
+
+    .estudando div:hover {
+        cursor: pointer;
+        transform: translateY(-5px);
+    }
 
 }
 

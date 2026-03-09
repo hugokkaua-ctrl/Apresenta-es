@@ -581,9 +581,27 @@ body {
     transform: translateY(-5px);
 }
 
+/*navbar2*/
 #navbarr2 {
     display: none;
 }
+
+/*footer*/
+.footer {}
+
+.footer h2 {}
+
+.footer p {}
+
+.footer_span {}
+
+.icones {}
+
+.icones li {}
+
+.icones i {}
+
+
 
 /* Smartphones (600px para baixo) */
 @media only screen and (max-width: 600px) {

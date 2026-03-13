@@ -641,7 +641,40 @@ body {
     color: #fbf7f7
 }
 
+.contato {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.contato h1 {
+    letter-spacing: 3px;
+    font-size: 60px;
+    margin-bottom: 0;
+}
+
+.redes {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes div {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    width: 235px;
+    height: 230px;
+    color: #fbf7f7;
+    background: #242222;
+    border-radius: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
 
 /* Smartphones (600px para baixo) */
 @media only screen and (max-width: 600px) {

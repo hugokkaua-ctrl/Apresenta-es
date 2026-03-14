@@ -667,13 +667,44 @@ body {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    width: 235px;
-    height: 230px;
+    width: 260px;
+    height: 290px;
     color: #fbf7f7;
     background: #242222;
     border-radius: 10px;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.redes div:hover {
+    cursor: pointer;
+    transform: translateY(-0.6px);
+    transition: ease 1s;
+}
+
+.redes i {
+    font-size: 55px;
+}
+
+.redes h2 {
+    margin-bottom: 10px;
+}
+
+.redes p {
+    margin-top: 0;
+}
+
+.redes a {
+    border-radius: 5px;
+    padding: 13px 25px;
+    background: #343434;
+    margin-top: 0.5em;
+    margin-bottom: 0;
+}
+
+.redes a:hover {
+    transform: translateY(-3px);
+    transition: ease 0.3s;
 }
 
 /* Smartphones (600px para baixo) */

@@ -650,8 +650,48 @@ body {
 
 .contato h1 {
     letter-spacing: 3px;
-    font-size: 60px;
+    font-size: 75px;
     margin-bottom: 0;
+}
+
+/*formulario dos contatos*/
+.formulario {
+    border-radius: 5px;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    background: #343434;
+    color: #fbf7f7;
+    padding: 1.5em;
+}
+
+.formulario label {
+    font-size: 18px;
+}
+
+#nome {
+    padding: 5px 250px 5px 250px;
+}
+
+#email {
+    padding: 5px 250px 5px 250px;
+}
+
+
+#mensagem {
+    padding: 30px 250px 30px 250px;
+}
+
+.but_area_form {
+    text-align: center;
+}
+
+#botao_form {
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px 80px 5px 80px;
+    margin-top: 1.5em;
 }
 
 .redes {
@@ -661,6 +701,7 @@ body {
     justify-content: center;
     align-items: center;
 }
+
 
 .redes div {
     display: flex;

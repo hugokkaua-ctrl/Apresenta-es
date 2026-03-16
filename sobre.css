@@ -666,20 +666,38 @@ body {
     padding: 1.5em;
 }
 
+.formulario h1 {
+    letter-spacing: 4px;
+    margin-top: 0;
+    font-size: 40px;
+}
+
 .formulario label {
     font-size: 18px;
 }
 
 #nome {
+    caret-color: #242222;
+    border: #0a0a0a solid 2px;
+    outline: none;
+    border-radius: 5px;
     padding: 5px 250px 5px 250px;
 }
 
 #email {
+    caret-color: #242222;
+    border: #0a0a0a solid 2px;
+    outline: none;
+    border-radius: 5px;
     padding: 5px 250px 5px 250px;
 }
 
 
 #mensagem {
+    caret-color: #242222;
+    border: #0a0a0a solid 2px;
+    outline: none;
+    border-radius: 5px;
     padding: 30px 250px 30px 250px;
 }
 
@@ -692,6 +710,13 @@ body {
     font-size: 20px;
     padding: 5px 80px 5px 80px;
     margin-top: 1.5em;
+    transition: ease 0.3s;
+}
+
+#botao_form:hover {
+    color: #fbf7f7;
+    background: #242222;
+    transform: translateY(-3px);
 }
 
 .redes {

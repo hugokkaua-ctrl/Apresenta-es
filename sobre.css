@@ -13,6 +13,11 @@ body {
     font-family: "Roboto", sans-serif;
 }
 
+input,
+textarea {
+    text-align: left;
+    padding: 10pxs;
+}
 
 
 .pagina {
@@ -680,16 +685,16 @@ body {
     caret-color: #242222;
     border: #0a0a0a solid 2px;
     outline: none;
-    border-radius: 5px;
-    padding: 5px 250px 5px 250px;
+    border-radius: 4px;
+    padding: 5px 450px 3px 4px;
 }
 
 #email {
     caret-color: #242222;
     border: #0a0a0a solid 2px;
     outline: none;
-    border-radius: 5px;
-    padding: 5px 250px 5px 250px;
+    border-radius: 4px;
+    padding: 5px 450px 3px 4px;
 }
 
 
@@ -697,8 +702,8 @@ body {
     caret-color: #242222;
     border: #0a0a0a solid 2px;
     outline: none;
-    border-radius: 5px;
-    padding: 30px 250px 30px 250px;
+    border-radius: 4px;
+    padding: 5px 450px 50px 4px;
 }
 
 .but_area_form {
@@ -706,9 +711,9 @@ body {
 }
 
 #botao_form {
-    border-radius: 10px;
+    border-radius: 12px;
     font-size: 20px;
-    padding: 5px 80px 5px 80px;
+    padding: 10px 80px 10px 80px;
     margin-top: 1.5em;
     transition: ease 0.3s;
 }

@@ -646,6 +646,7 @@ textarea {
     color: #fbf7f7
 }
 
+/*area dos contatos*/
 .contato {
     display: flex;
     flex-flow: column;
@@ -724,6 +725,7 @@ textarea {
     transform: translateY(-3px);
 }
 
+/*Minhas redes sociais*/
 .redes {
     margin-top: 2%;
     margin-bottom: 2%;
@@ -1212,6 +1214,127 @@ textarea {
     .estudando div:hover {
         cursor: pointer;
         transform: translateY(-5px);
+    }
+
+
+    /*area dos contatos*/
+    .contato {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .contato h1 {
+        letter-spacing: 3px;
+        font-size: 75px;
+        margin-bottom: 0;
+    }
+
+    /*formulario dos contatos*/
+    .formulario {
+        border-radius: 5px;
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        background: #343434;
+        color: #fbf7f7;
+        padding: 1.5em;
+    }
+
+    .formulario h1 {
+        letter-spacing: 4px;
+        margin-top: 0;
+        font-size: 40px;
+    }
+
+    .formulario label {
+        font-size: 18px;
+    }
+
+    #nome {
+        caret-color: #242222;
+        border: #0a0a0a solid 2px;
+        outline: none;
+        border-radius: 4px;
+        padding: 5px 300px 3px 4px;
+    }
+
+    #email {
+        caret-color: #242222;
+        border: #0a0a0a solid 2px;
+        outline: none;
+        border-radius: 4px;
+        padding: 5px 300px 3px 4px;
+    }
+
+
+    #mensagem {
+        caret-color: #242222;
+        border: #0a0a0a solid 2px;
+        outline: none;
+        border-radius: 4px;
+        padding: 5px 300px 50px 4px;
+    }
+
+    .but_area_form {
+        text-align: center;
+    }
+
+
+    /*Minhas redes sociais*/
+    .redes {
+        margin-top: 2%;
+        margin-bottom: 2%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .redes div {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        width: 420px;
+        height: 290px;
+        color: #fbf7f7;
+        background: #242222;
+        border-radius: 10px;
+        margin-top: 1em;
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .redes div:hover {
+        cursor: pointer;
+        transform: translateY(-0.6px);
+        transition: ease 1s;
+    }
+
+    .redes i {
+        font-size: 65px;
+    }
+
+    .redes h2 {
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+
+    .redes p {
+        font-size: 17px;
+        margin-top: 0;
+    }
+
+    .redes a {
+        border-radius: 5px;
+        padding: 15px 40px;
+        background: #343434;
+        margin-top: 0.5em;
+        margin-bottom: 0;
     }
 
 }

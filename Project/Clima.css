@@ -46,7 +46,7 @@ html {
     margin-top: 0;
 }
 
-#Cidade {
+#cidade {
     outline: black;
     caret-color: #a29bfe;
     transition: ease 0.5s;
@@ -58,12 +58,12 @@ html {
     background: rgb(255, 255, 255, 0.2);
 }
 
-#Cidade::placeholder {
+#cidade::placeholder {
     font-size: 20px;
     color: rgba(255, 255, 255, 0.97);
 }
 
-#Cidade:hover {
+#cidade:hover {
     transform: translateY(-2px);
 }
 

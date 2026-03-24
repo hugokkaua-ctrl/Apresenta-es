@@ -65,6 +65,7 @@ html {
 
 #cidade:hover {
     transform: translateY(-2px);
+    box-shadow: 0px 2px 2px 0px black;
 }
 
 #butao {
@@ -87,6 +88,7 @@ html {
 #butao:hover {
     color: black;
     transform: translateY(-2px);
+    box-shadow: 0px 2px 2px 0px black;
 }
 
 #butao:hover i {

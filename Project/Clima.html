@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
 </head>
 
-<body>
+<body onload="Horas()">
     <div class="Clima">
         <div>
             <input type="text" id="cidade" name="cidade" placeholder="Fale sua cidade/Estado" />
@@ -24,7 +24,7 @@
     </div>
 
     <div class="Horas">
-        <h2>Horas</h2>
+        <h2 id="hora">0</h2>
     </div>
 </body>
 <script src="clima.js">

@@ -96,11 +96,13 @@ html {
 }
 
 .Horas {
-    left: 1320px;
+    left: 1300px;
     top: 10px;
     position: absolute;
 }
 
 .Horas h2 {
+    font-size: 28px;
+    font-weight: bold;
     color: white;
 }

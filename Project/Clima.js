@@ -26,3 +26,20 @@ async function enviar() {
     }
 
 }
+
+function Horas() {
+    setInterval(function () {
+        let data = new Date()
+
+        let horas = data.getHours()
+        let min = data.getMinutes()
+        let sec = data.getSeconds()
+
+        if (horas < 10) {
+            document.getElementById("hora").innerHTML = "0" + horas + ":" + min + ":" + sec
+        } else {
+            document.getElementById("hora").innerHTML = horas + ":" + min + ":" + sec
+        }
+
+    }, 1000)
+}

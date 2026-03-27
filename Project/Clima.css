@@ -106,3 +106,15 @@ html {
     font-weight: bold;
     color: white;
 }
+
+.Data {
+    right: 1300px;
+    top: 10px;
+    position: absolute;
+}
+
+.Data h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}

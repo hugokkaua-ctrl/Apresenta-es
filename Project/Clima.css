@@ -99,7 +99,7 @@ html {
 }
 
 .Horas {
-    left: 1300px;
+    left: 1200px;
     top: 10px;
     position: absolute;
 }
@@ -111,7 +111,7 @@ html {
 }
 
 .Data {
-    right: 1300px;
+    right: 1200px;
     top: 10px;
     position: absolute;
 }

@@ -1,18 +1,46 @@
-const inpus = document.getElementById("cidade")
+const input = document.querySelector("#cidade")
+const butao = document.querySelector("#butao")
+const condicao = document.querySelector("#condicao")
+const temperatura = document.querySelector("#temperatura")
+const local = document.querySelector("#local")
 
-const city = inpus.value
+const apiKey = "0408e36a5540998e1080d2e39c65cc17";
 
-const condicao = document.getElementById("condicao")
-const temperatura = document.getElementById("temperatura")
-const local = document.getElementById("local")
+const getWatherDate = (city) => {
+
+    const apiWeatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=pt_br`;
+
+    const res = fetch(apiWeatherURL);
+    const data = res.json();
+
+    return data
+}
+
+const ShowerData = (city) => {
+
+    const data = getWatherDate(city);
+
+    if (data.cod === "404") {
+        console.log("erro");
+        return;
+    }
+
+    local.innerText = data.name;
+    condicao.innerText = parseInt(data.main.temp);
+    temperatura.innerText = data.weather[0].description;
+}
+
+butao.addEventListener("click", async (e) => {
+    e.preventDefault();
+
+    const cidade = input.value;
+
+    ShowerData(cidade);
+})
 
 
 
-
-
-
-
-function Horas() {
+function HorasDate() {
     setInterval(function () {
         let data = new Date()
 
@@ -27,15 +55,15 @@ function Horas() {
         let ano = data.getFullYear()
 
         if (horas < 10) {
-            document.getElementById("hora").innerHTML = "0" + horas + ":" + min + ":" + sec
+            document.querySelector("#hora").innerText = "0" + horas + ":" + min + ":" + sec
         } else {
-            document.getElementById("hora").innerHTML = horas + ":" + min + ":" + sec
+            document.querySelector("#hora").innerText = horas + ":" + min + ":" + sec
         }
 
         if (mes < 10 || dia < 10) {
-            document.getElementById("data").innerHTML = dia + "/0" + mes + "/" + ano
+            document.querySelector("#data").innerText = dia + "/0" + mes + "/" + ano
         } else {
-            document.getElementById("data").innerHTML = dia + mes + "/" + "/" + ano
+            document.querySelector("#data").innerText = dia + mes + "/" + "/" + ano
         }
 
     }, 1000)

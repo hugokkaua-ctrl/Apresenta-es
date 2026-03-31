@@ -6,28 +6,29 @@ const local = document.querySelector("#local")
 
 const apiKey = "0408e36a5540998e1080d2e39c65cc17";
 
-const getWatherDate = (city) => {
+const getWatherDate = async (city) => {
 
     const apiWeatherURL = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}&lang=pt_br`;
 
-    const res = fetch(apiWeatherURL);
-    const data = res.json();
+    const res = await fetch(apiWeatherURL);
+    const data = await res.json();
 
     return data
 }
 
-const ShowerData = (city) => {
+const ShowerData = async (city) => {
 
-    const data = getWatherDate(city);
+    const data = await getWatherDate(city);
 
-    if (data.cod === "404") {
+    if (data.cod === 404) {
         console.log("erro");
         return;
     }
 
+
+    condicao.innerText = data.weather[0].description;
     local.innerText = data.name;
-    condicao.innerText = parseInt(data.main.temp);
-    temperatura.innerText = data.weather[0].description;
+    temperatura.innerText = parseInt(data.main.temp) + "°C";
 }
 
 butao.addEventListener("click", async (e) => {

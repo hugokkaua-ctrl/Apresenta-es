@@ -376,21 +376,21 @@ textarea {
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    height: 485px;
+    height: 495px;
     width: 430px;
     padding: 10px;
     border-radius: 25px;
 }
 
 
-.App_tarefas {
+.App_Clima {
     color: #fbf7f7;
     background: #242222;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    height: 485px;
+    height: 495px;
     width: 430px;
     padding: 10px;
     border-radius: 25px;
@@ -403,7 +403,7 @@ textarea {
     flex-flow: column wrap;
     align-items: center;
     justify-content: space-around;
-    height: 485px;
+    height: 495px;
     width: 430px;
     padding: 10px;
     border-radius: 25px;
@@ -1004,7 +1004,7 @@ textarea {
     }
 
 
-    .App_tarefas {
+    .App_Clima {
         margin-top: 30px;
         color: #fbf7f7;
         background: #242222;

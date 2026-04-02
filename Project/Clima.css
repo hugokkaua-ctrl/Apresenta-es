@@ -111,6 +111,9 @@ html {
 }
 
 .Data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     right: 1200px;
     top: 10px;
     position: absolute;
@@ -120,6 +123,16 @@ html {
     font-size: 28px;
     font-weight: bold;
     color: white;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.Data h3 {
+    font-size: 26px;
+    font-weight: bold;
+    color: white;
+    margin-top: 0;
+    padding-top: 0;
 }
 
 

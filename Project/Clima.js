@@ -44,6 +44,7 @@ butao.addEventListener("click", async (e) => {
 function HorasDate() {
     setInterval(function () {
         let data = new Date()
+        const semana = ["Domingo", "Segunda-Feira", "Terça-Feira", "Quarta-Feira", "Quinta-Feira", "Sexta-Feira", "Sabádo"]
 
         /*HORARIO */
         let horas = data.getHours()
@@ -54,6 +55,7 @@ function HorasDate() {
         let mes = data.getMonth()
         let dia = data.getDate()
         let ano = data.getFullYear()
+        let seman = semana[data.getDay()]
 
         if (horas < 10) {
             document.querySelector("#hora").innerText = "0" + horas + ":" + min + ":" + sec
@@ -62,7 +64,8 @@ function HorasDate() {
         }
 
         if (mes < 10 || dia < 10) {
-            document.querySelector("#data").innerText = dia + "/0" + mes + "/" + ano
+            document.querySelector("#data").innerText = "0" + dia + "/0" + mes + "/" + ano
+            document.querySelector("#semana").innerText = seman
         } else {
             document.querySelector("#data").innerText = dia + mes + "/" + "/" + ano
         }

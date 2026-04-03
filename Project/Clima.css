@@ -68,7 +68,7 @@ html {
 
 #cidade:hover {
     transform: translateY(-2px);
-    box-shadow: 0px 2px 2px 0px black;
+    box-shadow: 0px 2px 2px 0px #2a2a2a83;
 }
 
 #butao {
@@ -91,7 +91,7 @@ html {
 #butao:hover {
     color: black;
     transform: translateY(-2px);
-    box-shadow: 0px 2px 2px 0px black;
+    box-shadow: 0px 2px 2px 0px #2a2a2a83;
 }
 
 #butao:hover i {
@@ -135,6 +135,11 @@ html {
     padding-top: 0;
 }
 
+.tema {}
+
+.tema a {}
+
+.tema i {}
 
 @media only screen and (max-width: 600px) {
 

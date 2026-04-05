@@ -135,25 +135,49 @@ html {
     padding-top: 0;
 }
 
-.tema1 {
+#claro {
+    display: none;
     bottom: 0;
     right: 0px;
     position: fixed;
     background: #36dffd;
     padding: 10px 20px;
     border-radius: 30px 0px 30px 0px;
-    transition: ease 0.5s;
+    transition: ease 1s;
+    box-shadow: 1px 1px 0px 2px #a29bfe
 }
 
-.tema1 a {
+#claro a {
     font-size: 20px;
 }
 
-.tema1:hover {
+#claro:hover {
     transform: translateX(-5px) translateY(-5px);
-    box-shadow: 3px 2px 2px 3px #36dffd;
-
+    box-shadow: 1px 1px 0px 1px #36dffd;
 }
+
+
+#escuro {
+    bottom: 0;
+    right: 0px;
+    position: fixed;
+    background: #032930;
+    padding: 10px 20px;
+    border-radius: 30px 0px 30px 0px;
+    transition: ease 1s;
+    box-shadow: 1px 1px 0px 2px #a29bfe
+}
+
+#escuro a {
+    font-size: 20px;
+}
+
+#escuro:hover {
+    transform: translateX(-5px) translateY(-5px);
+    box-shadow: 1px 1px 0px 1px #032930;
+}
+
+
 
 @media only screen and (max-width: 600px) {
 

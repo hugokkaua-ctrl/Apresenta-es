@@ -4,6 +4,9 @@ const condicao = document.querySelector("#condicao")
 const temperatura = document.querySelector("#temperatura")
 const local = document.querySelector("#local")
 
+const claro = document.getElementById("claro")
+const escuro = document.getElementById("escuro")
+
 const apiKey = "0408e36a5540998e1080d2e39c65cc17";
 
 const getWatherDate = async (city) => {
@@ -72,3 +75,13 @@ function HorasDate() {
 
     }, 1000)
 }
+
+function claros() {
+    escuro.style.display = "block"
+    claro.style.display = "none"
+}
+function escuros() {
+    claro.style.display = "block"
+    escuro.style.display = "none"
+}
+

@@ -78,10 +78,12 @@ function HorasDate() {
 
 function claros() {
     escuro.style.display = "block"
+    document.body.style.background = "linear-gradient(135deg, #032930, #086070)"
     claro.style.display = "none"
 }
 function escuros() {
     claro.style.display = "block"
+    document.body.style.background = "linear-gradient(135deg, #74b9ff, #a29bfe)"
     escuro.style.display = "none"
 }
 

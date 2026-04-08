@@ -76,14 +76,18 @@ function HorasDate() {
     }, 1000)
 }
 
-function claros() {
-    escuro.style.display = "block"
-    document.body.style.background = "linear-gradient(135deg, #032930, #086070)"
-    claro.style.display = "none"
-}
-function escuros() {
-    claro.style.display = "block"
-    document.body.style.background = "linear-gradient(135deg, #74b9ff, #a29bfe)"
-    escuro.style.display = "none"
-}
+const btn = document.querySelector("#btn2");
+const btn2 = document.querySelector("#btn");
 
+btn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+});
+
+
+/*
+const btn2 =
+    document.querySelector("#btn");
+btn.addEventListener("click", () => {
+    document.body.classList.toggle("dark");
+});
+*/

@@ -17,17 +17,20 @@
             <button id="butao" onclick="enviar()"><i class="fa-solid fa-magnifying-glass"></i></button>
         </div>
 
-        <img style="width: 150px; margin-top:1em; margin-bottom: 0;" src="./img/ensolarado.png" alt="">
+        <img id="ensolarado" style="width: 150px; margin-top:1em; margin-bottom: 0;" src="./img/ensolarado.png" alt="">
+        <img id="anoitecer" style=" display: none; width: 150px; margin-top:1em; margin-bottom: 0;" src="./img/lua.png"
+            alt="">
+
         <h1 id="temperatura">27°c</h1>
         <h2 id="local">MINAS GERAIS</h2>
         <p id="condicao">condiçoes</p>
 
-        <div id="claro">
-            <a onclick="claros()"><i class=" fa-solid fa-sun"></i></a>
+        <div id="claro" class="white">
+            <a id="btn" style="display: none;" onclick="claros()"><i class=" fa-solid fa-sun"></i></a>
         </div>
 
-        <div id="escuro">
-            <a onclick="escuros()"><i class="fa-solid fa-moon"></i></a>
+        <div id="escuro" class="dark">
+            <a id="btn2" onclick="escuros()"><i class="fa-solid fa-moon"></i></a>
         </div>
     </div>
 

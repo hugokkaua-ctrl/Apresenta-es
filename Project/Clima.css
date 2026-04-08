@@ -136,6 +136,11 @@ html {
     padding-top: 0;
 }
 
+.white {
+    background: #36dffd;
+    transition: ease 1s;
+}
+
 #claro {
     display: none;
     bottom: 0;
@@ -177,7 +182,10 @@ html {
 
 }
 
-
+.dark {
+    background: #032930;
+    transition: ease 1s;
+}
 
 @media only screen and (max-width: 600px) {
 

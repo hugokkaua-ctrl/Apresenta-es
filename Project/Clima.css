@@ -26,7 +26,6 @@ html {
     background: rgb(255, 255, 255, 0.15);
     color: #ffffff;
     backdrop-filter: blur(5px);
-
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -136,13 +135,7 @@ html {
     padding-top: 0;
 }
 
-.white {
-    background: #36dffd;
-    transition: ease 1s;
-}
-
 #claro {
-    display: none;
     bottom: 0;
     right: 0px;
     position: fixed;
@@ -163,6 +156,7 @@ html {
 
 
 #escuro {
+    display: none;
     bottom: 0;
     right: 0px;
     position: fixed;
@@ -182,9 +176,37 @@ html {
 
 }
 
-.dark {
-    background: #032930;
-    transition: ease 1s;
+body::before {
+    content: "";
+    border-radius: 50%;
+    transform: scale(0);
+    position: fixed;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    z-index: -1;
+    transition: left 1s ease;
+}
+
+body.dark::before {
+    left: 0;
+    transform: scale(3);
+}
+
+body.dark {
+    background: linear-gradient(135deg, #36dffd, #032930);
+}
+
+
+body.white::before {
+    transform: scale(3);
+    left: 0;
+}
+
+body.white {
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
 }
 
 @media only screen and (max-width: 600px) {

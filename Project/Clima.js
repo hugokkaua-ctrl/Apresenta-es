@@ -76,14 +76,26 @@ function HorasDate() {
     }, 1000)
 }
 
-const btn = document.querySelector("#btn2");
-const btn2 = document.querySelector("#btn");
+const div1 = document.getElementById("claro")
+const div2 = document.getElementById("escuro")
+
+const btn = document.getElementById("btn");
+const btn2 = document.getElementById("btn2");
 
 btn.addEventListener("click", () => {
     document.body.classList.toggle("dark");
+    butao.style.background = "#032930"
+    div1.style.display = "none"
+    div2.style.display = "block"
 });
 
 
+btn2.addEventListener("click", () => {
+    document.body.classList.toggle("white")
+    butao.style.background = "#36dffd"
+    div1.style.display = "block"
+    div2.style.display = "none"
+})
 /*
 const btn2 =
     document.querySelector("#btn");

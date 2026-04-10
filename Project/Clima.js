@@ -60,6 +60,24 @@ function HorasDate() {
         let ano = data.getFullYear()
         let seman = semana[data.getDay()]
 
+        const ensolarado = document.getElementById("ensolarado")
+        const anoitecer = document.getElementById("anoitecer")
+        const atardecer = document.getElementById("atardecer")
+
+        if (horas < 12) {
+            ensolarado.style.display = "block"
+            anoitecer.style.display = "none"
+            atardecer.style.diplay = "none"
+        } else if (horas < 18) {
+            ensolarado.style.display = "none"
+            anoitecer.style.display = "none"
+            atardecer.style.diplay = "block"
+        } else {
+            ensolarado.style.display = "none"
+            anoitecer.style.display = "block"
+            atardecer.style.diplay = "none"
+        }
+
         if (horas < 10) {
             document.querySelector("#hora").innerText = "0" + horas + ":" + min + ":" + sec
         } else {

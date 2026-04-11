@@ -4,6 +4,7 @@ const condicao = document.querySelector("#condicao")
 const temperatura = document.querySelector("#temperatura")
 const local = document.querySelector("#local")
 
+
 const claro = document.getElementById("claro")
 const escuro = document.getElementById("escuro")
 
@@ -100,9 +101,22 @@ const div2 = document.getElementById("escuro")
 const btn = document.getElementById("btn");
 const btn2 = document.getElementById("btn2");
 
+let temp = document.getElementById("temperatura")
+let loc = document.getElementById("local")
+let cond = document.getElementById("condicao")
+let hour = document.getElementById("hora")
+let date = document.getElementById("data")
+let sem = document.getElementById("semana")
+
 btn.addEventListener("click", () => {
     document.body.classList.toggle("dark");
     butao.style.background = "#032930"
+    temp.style.color = "#021c21"
+    loc.style.color = "#021c21"
+    cond.style.color = "#021c21"
+    hour.style.color = "#021c21"
+    date.style.color = "#021c21"
+    sem.style.color = "#021c21"
     div1.style.display = "none"
     div2.style.display = "block"
 });
@@ -111,6 +125,12 @@ btn.addEventListener("click", () => {
 btn2.addEventListener("click", () => {
     document.body.classList.toggle("white")
     butao.style.background = "#36dffd"
+    temp.style.color = "white"
+    loc.style.color = "white"
+    cond.style.color = "white"
+    hour.style.color = "white"
+    date.style.color = "white"
+    sem.style.color = "white"
     div1.style.display = "block"
     div2.style.display = "none"
 })

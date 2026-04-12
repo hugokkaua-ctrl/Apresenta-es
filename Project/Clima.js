@@ -68,15 +68,15 @@ function HorasDate() {
         if (horas < 12) {
             ensolarado.style.display = "block"
             anoitecer.style.display = "none"
-            atardecer.style.diplay = "none"
+            atardecer.style.display = "none"
         } else if (horas < 18) {
             ensolarado.style.display = "none"
             anoitecer.style.display = "none"
-            atardecer.style.diplay = "block"
+            atardecer.style.display = "block"
         } else {
             ensolarado.style.display = "none"
             anoitecer.style.display = "block"
-            atardecer.style.diplay = "none"
+            atardecer.style.display = "none"
         }
 
         if (horas < 10) {

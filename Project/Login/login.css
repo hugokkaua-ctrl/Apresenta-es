@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body,
+hrml {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+}
+
+.Container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login_area {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column;
+    width: 40vw;
+    border: solid 1px black;
+}

@@ -9,8 +9,40 @@
 </head>
 
 <body>
-    <div>
-        <h1>login</h1>
+    <div class="Container">
+        <div class="login_area">
+            <h1>Cadastrar usuario</h1>
+
+            <div class="formulario">
+                <form>
+                    <div>
+                        <label>Seu Nome</label>
+                    </div>
+                    <input type="text" id="nome" name="name" placeholder="Nome" />
+                    <div>
+                        <label>Sua Senha</label>
+                    </div>
+                    <input type="password" id="senha" name="passowrd" placeholder="Senha" />
+
+
+                    <div>
+                        <span id="recuperar_senha">Esqueceu a senha</span>
+                    </div>
+
+                    <div>
+                        <button type="submit" onclick="envia()">Enviar</button>
+                    </div>
+                </form>
+
+                <div><span>ou continue com</span></div>
+
+                <div>
+                    <a href="">Google</a>
+
+                    <a href="">Facebook</a>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 

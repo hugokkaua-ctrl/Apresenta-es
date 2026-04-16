@@ -9,7 +9,7 @@ hrml {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: linear-gradient(135deg, #74b9ff, #a29bfe);
+    background: #C5E284;
 }
 
 .Container {
@@ -19,10 +19,44 @@ hrml {
 }
 
 .login_area {
+    padding: 1em;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-flow: column;
     width: 40vw;
-    border: solid 1px black;
+    border: solid 1px #200F07;
+    border-radius: 5px;
+}
+
+.login_area h1 {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 65px;
+    color: #200F07;
+}
+
+
+.formulario {}
+
+.formulario div {
+    margin-top: 1em;
+}
+
+.formulario input {
+    border-radius: 10px;
+    padding: 13px 370px 13px 10px;
+    caret-color: #200F07;
+    outline: #200F07;
+    border: 1px solid #C5E284;
+    transition: ease 1s;
+}
+
+.formulario input:hover {
+    border: solid 1px #200F07;
+}
+
+.formulario label {
+    color: #200F07;
+    font-size: 35px;
 }

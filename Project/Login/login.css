@@ -100,6 +100,25 @@ hrml {
     background: #200F07;
 }
 
-.divisor {}
+.divisor {
+    text-align: center;
+}
 
-.divisor span {}
+.divisor p {
+    color: #200F07;
+    transition: ease 0.5s;
+    font-size: 25px;
+}
+
+.divisor span {
+    font-size: 1px;
+    font-weight: bolder;
+    border-left: #200F07 2px solid;
+    border-right: #200F07 2px solid;
+    border-width: 100px;
+}
+
+.divisor p:hover {
+    transform: translateY(2px);
+    color: #702806;
+}

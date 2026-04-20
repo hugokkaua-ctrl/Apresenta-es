@@ -27,7 +27,7 @@ hrml {
     flex-flow: column;
     width: 40vw;
     border: solid 1px #200F07;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 .login_area h1 {
@@ -121,4 +121,25 @@ hrml {
 .divisor p:hover {
     transform: translateY(2px);
     color: #702806;
+}
+
+.contato {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contato a {
+    transition: ease 0.5s;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px 50px 10px 50px;
+    background: #200F07;
+    color: #C5E284;
+    text-decoration: none;
+}
+
+.contato a:hover {
+    transform: translateY(-3px);
+    background: #702806;
 }

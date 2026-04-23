@@ -146,3 +146,26 @@ hrml {
     transform: translateY(-3px);
     background: #702806;
 }
+
+.tema1 {
+    padding: 13px;
+    position: fixed;
+    top: 140px;
+    right: 481px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 45px;
+    border: none;
+    background: #200F07;
+}
+
+.tema1 i {
+    color: #C5E284;
+    font-size: 32px;
+    padding: 2px;
+}
+
+
+
+.tema2 {}
+
+.tema2 i {}

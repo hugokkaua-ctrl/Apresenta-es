@@ -11,7 +11,7 @@
 
 <body>
     <div class="Container">
-        <div class="login_area">
+        <div id="area" class="login_area">
             <h1>Cadastrar usuario</h1>
 
             <div class="formulario">
@@ -45,12 +45,12 @@
                     <a href="">Facebook <i class="fa-brands fa-facebook"></i></a>
                 </div>
 
-                <button class="tema1">
+                <button onclick="mudar_dark()" id="claro" class="tema1">
                     <i class="fa-solid fa-sun"></i>
                 </button>
 
-                <button class="tema2" style="display: none;">
-                    <i class="fa-solid fa-moon"></i>
+                <button id="dark" onclick="mudar_claro()" class="tema2">
+                    <i class=" fa-solid fa-moon"></i>
                 </button>
             </div>
         </div>

@@ -166,6 +166,20 @@ hrml {
 
 
 
-.tema2 {}
+.tema2 {
+    display: none;
+    padding: 13px;
+    position: fixed;
+    top: 140px;
+    right: 481px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 45px;
+    border: none;
+    background: #C5E284;
+}
 
-.tema2 i {}
+.tema2 i {
+    color: #702806;
+    font-size: 32px;
+    padding: 2px;
+}

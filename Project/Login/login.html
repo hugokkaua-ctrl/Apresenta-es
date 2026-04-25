@@ -12,21 +12,25 @@
 <body>
     <div class="Container">
         <div id="area" class="login_area">
-            <h1>Cadastrar usuario</h1>
+            <h1 id="title">Cadastrar usuario</h1>
 
             <div class="formulario">
                 <form onsubmit="submit()">
                     <div>
-                        <label>Seu Nome</label>
+                        <label id="label1">Seu Nome</label>
                     </div>
                     <input type="text" id="nome" name="name" placeholder="Nome" />
                     <div>
-                        <label>Sua Senha</label>
+                        <label id="label2">Sua Senha</label>
                     </div>
                     <input type="password" id="senha" name="passowrd" placeholder="Senha" />
 
 
                     <div id="recuperar_senha">
+                        <span>Esqueceu a senha?</span>
+                    </div>
+
+                    <div id="recuperar_senha2">
                         <span>Esqueceu a senha?</span>
                     </div>
 
@@ -36,8 +40,12 @@
                 </form>
 
                 <div class="divisor">
-                    <p><span></span> ou continue com <span></span></p>
+                    <p id="divisa1"><span></span> ou continue com <span></span></p>
                 </div>
+                <div class="divisor2">
+                    <p id="divisa2"><span></span> ou continue com <span></span></p>
+                </div>
+
 
                 <div class="contato">
                     <a href="">Google <i class="fa-brands fa-google"></i></a>

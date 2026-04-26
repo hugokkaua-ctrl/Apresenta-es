@@ -5,6 +5,12 @@ const titulo = document.getElementById("title")
 const btn1 = document.getElementById("claro")
 const btn2 = document.getElementById("dark")
 
+const recupera1 = document.getElementById("recuperar_senha")
+const recupera2 = document.getElementById("recuperar_senha2")
+
+const divisor1 = document.getElementById("divisa1")
+const divisor2 = document.getElementById("divisa2")
+
 function envia() { }
 
 function submit() { }
@@ -18,9 +24,19 @@ function mudar_dark() {
     area.style.background = "#702806"
     btn1.style.display = "none"
     btn2.style.display = "block"
+
+    divisor1.style.display = "None"
+    divisor2.style.display = "block"
+    recupera1.style.display = "none"
+    recupera2.style.display = "block"
 }
 function mudar_claro() {
     document.body.style.background = "#C5E284"
     btn1.style.display = "block"
     btn2.style.display = "none"
+
+    divisor1.style.display = "block"
+    divisor2.style.display = "none"
+    recupera1.style.display = "block"
+    recupera2.style.display = "none"
 }

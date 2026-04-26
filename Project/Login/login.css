@@ -64,7 +64,6 @@ hrml {
 
 
 #recuperar_senha {
-    display: none;
     margin-top: 0;
     position: relative;
     left: 23em;
@@ -79,24 +78,6 @@ hrml {
 }
 
 #recuperar_senha span:hover {
-    color: #702806;
-}
-
-#recuperar_senha2 {
-    margin-top: 0;
-    position: relative;
-    left: 23em;
-}
-
-#recuperar_senha2 span {
-    transition: ease 0.5s;
-    font-weight: bold;
-    color: #200F07;
-    cursor: pointer;
-    font-size: 22px;
-}
-
-#recuperar_senha2 span:hover {
     color: #702806;
 }
 
@@ -124,6 +105,7 @@ hrml {
 }
 
 .divisor {
+    cursor: pointer;
     text-align: center;
 }
 
@@ -141,34 +123,6 @@ hrml {
     border-width: 100px;
 }
 
-.divisor p:hover {
-    transform: translateY(2px);
-    color: #702806;
-}
-
-.divisor2 {
-    display: none;
-    text-align: center;
-}
-
-.divisor2 p {
-    color: #200F07;
-    transition: ease 0.5s;
-    font-size: 25px;
-}
-
-.divisor2 span {
-    font-size: 1px;
-    font-weight: bolder;
-    border-left: #200F07 2px solid;
-    border-right: #200F07 2px solid;
-    border-width: 100px;
-}
-
-.divisor2 p:hover {
-    transform: translateY(2px);
-    color: #702806;
-}
 
 .contato {
     display: flex;
@@ -211,6 +165,8 @@ hrml {
 
 
 
+
+
 .tema2 {
     display: none;
     padding: 13px;
@@ -227,4 +183,90 @@ hrml {
     color: #702806;
     font-size: 32px;
     padding: 2px;
+}
+
+#recuperar_senha2 {
+    display: none;
+    margin-top: 0;
+    position: relative;
+    left: 23em;
+}
+
+#recuperar_senha2 span {
+    transition: ease 0.5s;
+    font-weight: bold;
+    color: #C5E284;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+#recuperar_senha2 span:hover {
+    color: #200F07;
+}
+
+.divisor2 {
+    display: none;
+    cursor: pointer;
+    text-align: center;
+}
+
+.divisor2 p {
+    color: #C5E284;
+    transition: ease 0.5s;
+    font-size: 25px;
+}
+
+.divisor2 span {
+    font-size: 1px;
+    font-weight: bolder;
+    border-left: #C5E284 2px solid;
+    border-right: #C5E284 2px solid;
+    border-width: 100px;
+}
+
+
+#btn_enviar2 {
+    display: none;
+    padding: 1em;
+    text-align: center;
+}
+
+#btn_enviar2 button {
+    transition: ease 0.5s;
+    color: #C5E284;
+    font-size: 25px;
+    border-radius: 10px;
+    background: #200F07;
+    border: solid 1px #C5E284;
+    padding: 13px 150px 13px 150px;
+}
+
+#btn_enviar2 button:hover {
+    transform: translateY(-4px);
+    color: #C5E284;
+    border: solid 1px #702806;
+    background: #702806;
+}
+
+
+.contato2 {
+    display: none;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.contato2 a {
+    transition: ease 0.5s;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 10px 0px 10px 0px;
+    width: 210px;
+    background: #200F07;
+    color: #C5E284;
+    text-decoration: none;
+}
+
+.contato2 a:hover {
+    transform: translateY(-3px);
+    background: #702806;
 }

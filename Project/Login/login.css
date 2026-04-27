@@ -243,9 +243,9 @@ hrml {
 
 #btn_enviar2 button:hover {
     transform: translateY(-4px);
-    color: #C5E284;
-    border: solid 1px #702806;
-    background: #702806;
+    color: #200F07;
+    border: solid 1px #C5E284;
+    background: #C5E284;
 }
 
 
@@ -268,5 +268,6 @@ hrml {
 
 .contato2 a:hover {
     transform: translateY(-3px);
-    background: #702806;
+    color: #200F07;
+    background: #C5E284;
 }

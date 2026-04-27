@@ -11,6 +11,11 @@ const recupera2 = document.getElementById("recuperar_senha2")
 const divisor1 = document.getElementById("divisa1")
 const divisor2 = document.getElementById("divisa2")
 
+const btnEnvia1 = document.getElementById("btn_envia")
+const btnEnvia2 = document.getElementById("btn_envia2")
+const contatos1 = document.getElementById("contato1")
+const contatos2 = document.getElementById("contato2")
+
 function envia() { }
 
 function submit() { }
@@ -21,7 +26,7 @@ function mudar_dark() {
     titulo.style.color = "#C5E284"
     label1.style.color = "#C5E284"
     label2.style.color = "#C5E284"
-    area.style.background = "#702806"
+    area.style.background = "rgb(112, 40, 6)"
     btn1.style.display = "none"
     btn2.style.display = "block"
 
@@ -29,6 +34,11 @@ function mudar_dark() {
     divisor2.style.display = "block"
     recupera1.style.display = "none"
     recupera2.style.display = "block"
+
+    btnEnvia1.style.display = "none"
+    btnEnvia2.style.display = "block"
+    contatos1.style.display = "none"
+    contatos2.style.display = "block"
 }
 function mudar_claro() {
     document.body.style.background = "#C5E284"
@@ -39,4 +49,10 @@ function mudar_claro() {
     divisor2.style.display = "none"
     recupera1.style.display = "block"
     recupera2.style.display = "none"
+
+
+    btnEnvia1.style.display = "block"
+    btnEnvia2.style.display = "none"
+    contatos1.style.display = "block"
+    contatos2.style.display = "none"
 }

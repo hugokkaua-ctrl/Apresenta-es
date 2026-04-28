@@ -11,8 +11,8 @@ const recupera2 = document.getElementById("recuperar_senha2")
 const divisor1 = document.getElementById("divisa1")
 const divisor2 = document.getElementById("divisa2")
 
-const btnEnvia1 = document.getElementById("btn_envia")
-const btnEnvia2 = document.getElementById("btn_envia2")
+const btnEnvia1 = document.getElementById("btn1")
+const btnEnvia2 = document.getElementById("btn2")
 const contatos1 = document.getElementById("contato1")
 const contatos2 = document.getElementById("contato2")
 
@@ -36,9 +36,9 @@ function mudar_dark() {
     recupera2.style.display = "block"
 
     btnEnvia1.style.display = "none"
-    btnEnvia2.style.display = "block"
+    btnEnvia2.style.display = "flex"
     contatos1.style.display = "none"
-    contatos2.style.display = "block"
+    contatos2.style.display = "flex"
 }
 function mudar_claro() {
     document.body.style.background = "#C5E284"
@@ -51,8 +51,8 @@ function mudar_claro() {
     recupera2.style.display = "none"
 
 
-    btnEnvia1.style.display = "block"
+    btnEnvia1.style.display = "flex"
     btnEnvia2.style.display = "none"
-    contatos1.style.display = "block"
+    contatos1.style.display = "flex"
     contatos2.style.display = "none"
 }

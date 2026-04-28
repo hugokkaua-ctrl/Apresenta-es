@@ -82,12 +82,15 @@ hrml {
 }
 
 
-#btn_enviar {
+#btn1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding: 1em;
     text-align: center;
 }
 
-#btn_enviar button {
+#btn1 button {
     transition: ease 0.5s;
     color: #C5E284;
     font-size: 25px;
@@ -97,7 +100,7 @@ hrml {
     padding: 13px 150px 13px 150px;
 }
 
-#btn_enviar button:hover {
+#btn1 button:hover {
     transform: translateY(-4px);
     color: #C5E284;
     border: solid 1px #702806;
@@ -124,13 +127,13 @@ hrml {
 }
 
 
-.contato {
+#contato1 {
     display: flex;
     justify-content: space-around;
     text-align: center;
 }
 
-.contato a {
+#contato1 a {
     transition: ease 0.5s;
     border-radius: 10px;
     font-size: 25px;
@@ -141,7 +144,7 @@ hrml {
     text-decoration: none;
 }
 
-.contato a:hover {
+#contato1 a:hover {
     transform: translateY(-3px);
     background: #702806;
 }
@@ -225,13 +228,15 @@ hrml {
 }
 
 
-#btn_enviar2 {
+#btn2 {
     display: none;
     padding: 1em;
+    justify-content: center;
+    align-items: center;
     text-align: center;
 }
 
-#btn_enviar2 button {
+#btn2 button {
     transition: ease 0.5s;
     color: #C5E284;
     font-size: 25px;
@@ -241,7 +246,7 @@ hrml {
     padding: 13px 150px 13px 150px;
 }
 
-#btn_enviar2 button:hover {
+#btn2 button:hover {
     transform: translateY(-4px);
     color: #200F07;
     border: solid 1px #C5E284;
@@ -249,13 +254,13 @@ hrml {
 }
 
 
-.contato2 {
+#contato2 {
     display: none;
     justify-content: space-around;
     text-align: center;
 }
 
-.contato2 a {
+#contato2 a {
     transition: ease 0.5s;
     border-radius: 10px;
     font-size: 25px;
@@ -266,7 +271,7 @@ hrml {
     text-decoration: none;
 }
 
-.contato2 a:hover {
+#contato2 a:hover {
     transform: translateY(-3px);
     color: #200F07;
     background: #C5E284;

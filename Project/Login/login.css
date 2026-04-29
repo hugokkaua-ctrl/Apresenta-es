@@ -150,6 +150,7 @@ hrml {
 }
 
 .tema1 {
+    cursor: pointer;
     padding: 13px;
     position: fixed;
     top: 140px;
@@ -166,12 +167,23 @@ hrml {
     padding: 2px;
 }
 
+.infor {
+    position: fixed;
+    top: 50px;
+    right: 150px;
+    display: flex;
+}
+
+#horas {}
+
+#datas {}
 
 
 
 
 .tema2 {
     display: none;
+    cursor: pointer;
     padding: 13px;
     position: fixed;
     top: 140px;

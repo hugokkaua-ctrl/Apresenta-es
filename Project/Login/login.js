@@ -26,7 +26,7 @@ function mudar_dark() {
     titulo.style.color = "#C5E284"
     label1.style.color = "#C5E284"
     label2.style.color = "#C5E284"
-    area.style.background = "rgb(112, 40, 6)"
+    area.style.background = "#702806"
     btn1.style.display = "none"
     btn2.style.display = "block"
 
@@ -42,6 +42,10 @@ function mudar_dark() {
 }
 function mudar_claro() {
     document.body.style.background = "#C5E284"
+    titulo.style.color = "#200F07"
+    label1.style.color = "#200F07"
+    label2.style.color = "#200F07"
+    area.style.background = "#C5E284"
     btn1.style.display = "block"
     btn2.style.display = "none"
 

@@ -172,6 +172,9 @@ hrml {
     top: 50px;
     right: 150px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #horas {}

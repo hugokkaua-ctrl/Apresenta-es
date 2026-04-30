@@ -60,3 +60,25 @@ function mudar_claro() {
     contatos1.style.display = "flex"
     contatos2.style.display = "none"
 }
+
+const horas = document.getElementById("horas")
+const dias = document.getElementById("datas")
+const data = new Date()
+
+function horas() {
+    const hora = data.getHours()
+    const min = data.getMinutes()
+    const sec = data.getSeconds()
+
+    setInterval(() => {
+
+    }, 1000)
+}
+function datas() {
+    const ano = data.getFullYear()
+    const mes = data.getMonth()
+    const dia = data.getDate()
+    setInterval(() => {
+
+    }, 1000)
+}

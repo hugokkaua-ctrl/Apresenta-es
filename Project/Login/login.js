@@ -61,24 +61,28 @@ function mudar_claro() {
     contatos2.style.display = "none"
 }
 
-const horas = document.getElementById("horas")
-const dias = document.getElementById("datas")
-const data = new Date()
 
-function horas() {
-    const hora = data.getHours()
-    const min = data.getMinutes()
-    const sec = data.getSeconds()
 
-    setInterval(() => {
+function Calendario() {
+    const horario = document.getElementById("horas")
+    const dias = document.getElementById("datas")
 
-    }, 1000)
+    setInterval(function () {
+        const data = new Date()
+
+        const hora = data.getHours()
+        const min = data.getMinutes()
+        const sec = data.getSeconds()
+
+        const ano = data.getFullYear()
+        const mes = data.getMonth() + 1
+        const dia = data.getDate()
+
+        if (mes < 10 || dia < 10) {
+            dias.innerHTML = ano + "/" + "0" + mes + "/" + "0" + dia
+            horario.innerHTML = hora + "H: " + min + "M: " + sec + "S"
+        }
+
+    }, 1000);
 }
-function datas() {
-    const ano = data.getFullYear()
-    const mes = data.getMonth()
-    const dia = data.getDate()
-    setInterval(() => {
 
-    }, 1000)
-}

@@ -66,6 +66,7 @@ function mudar_claro() {
 function Calendario() {
     const horario = document.getElementById("horas")
     const dias = document.getElementById("datas")
+    const semana = document.getElementById("semana")
 
     setInterval(function () {
         const data = new Date()

@@ -170,16 +170,27 @@ hrml {
 .infor {
     position: fixed;
     top: 50px;
-    right: 150px;
+    right: 80px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    box-shadow: 0px 0px 10px 0px #200F07;
+    width: 230px;
+    border-radius: 20px;
 }
 
-#horas {}
+#horas {
+    color: #200F07;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
 
-#datas {}
+#datas {
+    color: #200F07;
+    margin-top: 0;
+    font-size: 22px;
+}
 
 
 

@@ -183,15 +183,23 @@ hrml {
 #horas {
     color: #200F07;
     margin-bottom: 10px;
-    font-size: 22px;
+    font-size: 26px;
 }
 
 #datas {
     color: #200F07;
     margin-top: 0;
-    font-size: 22px;
+    margin-bottom: 3px;
+    font-size: 26px;
 }
 
+#semana {
+    margin-top: 0;
+    margin-bottom: 5px;
+    font-weight: bolder;
+    color: #200F07;
+    font-size: 37px;
+}
 
 
 

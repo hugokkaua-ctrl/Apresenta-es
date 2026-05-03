@@ -66,7 +66,7 @@ function mudar_claro() {
 function Calendario() {
     const horario = document.getElementById("horas")
     const dias = document.getElementById("datas")
-    const semana = document.getElementById("semana")
+    const semanas = document.getElementById("semana")
 
     setInterval(function () {
         const data = new Date()
@@ -79,9 +79,13 @@ function Calendario() {
         const mes = data.getMonth() + 1
         const dia = data.getDate()
 
+        const semana = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
+        const sema = semana[data.getDay()]
+
         if (mes < 10 || dia < 10) {
             dias.innerHTML = ano + "/" + "0" + mes + "/" + "0" + dia
             horario.innerHTML = hora + "H: " + min + "M: " + sec + "S"
+            semanas.innerHTML = sema
         }
 
     }, 1000);

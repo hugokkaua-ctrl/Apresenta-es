@@ -16,6 +16,8 @@ const btnEnvia2 = document.getElementById("btn2")
 const contatos1 = document.getElementById("contato1")
 const contatos2 = document.getElementById("contato2")
 
+const informacao = document.getElementById("infor2")
+const informacao = document.getElementById("infor1")
 function envia() { }
 
 function submit() { }
@@ -90,4 +92,5 @@ function Calendario() {
 
     }, 1000);
 }
+
 

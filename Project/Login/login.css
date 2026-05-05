@@ -167,7 +167,7 @@ hrml {
     padding: 2px;
 }
 
-.infor1 {
+.infors {
     position: fixed;
     top: 50px;
     right: 80px;
@@ -310,40 +310,4 @@ hrml {
     transform: translateY(-3px);
     color: #200F07;
     background: #C5E284;
-}
-
-
-.infor2 {
-    display: none;
-    position: fixed;
-    top: 50px;
-    right: 80px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-shadow: 0px 0px 10px 0px #200F07;
-    width: 230px;
-    border-radius: 20px;
-}
-
-#horas2 {
-    color: #200F07;
-    margin-bottom: 10px;
-    font-size: 26px;
-}
-
-#datas2 {
-    color: #200F07;
-    margin-top: 0;
-    margin-bottom: 3px;
-    font-size: 26px;
-}
-
-#semana2 {
-    margin-top: 0;
-    margin-bottom: 5px;
-    font-weight: bolder;
-    color: #200F07;
-    font-size: 37px;
 }

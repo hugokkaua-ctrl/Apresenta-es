@@ -16,13 +16,6 @@ const btnEnvia2 = document.getElementById("btn2")
 const contatos1 = document.getElementById("contato1")
 const contatos2 = document.getElementById("contato2")
 
-const informacao = document.getElementById("infor2")
-const informacao = document.getElementById("infor1")
-function envia() { }
-
-function submit() { }
-
-
 function mudar_dark() {
     document.body.style.background = "#200F07"
     titulo.style.color = "#C5E284"
@@ -66,6 +59,7 @@ function mudar_claro() {
 
 
 function Calendario() {
+    const informacao = document.getElementById("infors")
     const horario = document.getElementById("horas")
     const dias = document.getElementById("datas")
     const semanas = document.getElementById("semana")

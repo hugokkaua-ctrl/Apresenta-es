@@ -16,8 +16,14 @@ const btnEnvia2 = document.getElementById("btn2")
 const contatos1 = document.getElementById("contato1")
 const contatos2 = document.getElementById("contato2")
 
+const informacao = document.getElementById("infors")
+const horario = document.getElementById("horas")
+const dias = document.getElementById("datas")
+const semanas = document.getElementById("semana")
+
 function mudar_dark() {
     document.body.style.background = "#200F07"
+    area.style.transition = "ease 1s"
     titulo.style.color = "#C5E284"
     label1.style.color = "#C5E284"
     label2.style.color = "#C5E284"
@@ -34,6 +40,12 @@ function mudar_dark() {
     btnEnvia2.style.display = "flex"
     contatos1.style.display = "none"
     contatos2.style.display = "flex"
+
+    informacao.style.background = "#702806"
+    informacao.style.transition = "ease 1s"
+    horario.style.color = "#C5E284"
+    dias.style.color = "#C5E284"
+    semanas.style.color = "#C5E284"
 }
 function mudar_claro() {
     document.body.style.background = "#C5E284"
@@ -54,15 +66,16 @@ function mudar_claro() {
     btnEnvia2.style.display = "none"
     contatos1.style.display = "flex"
     contatos2.style.display = "none"
+
+    informacao.style.background = "#C5E284"
+    horario.style.color = "#200F07"
+    dias.style.color = "#200F07"
+    semanas.style.color = "#200F07"
 }
 
 
 
 function Calendario() {
-    const informacao = document.getElementById("infors")
-    const horario = document.getElementById("horas")
-    const dias = document.getElementById("datas")
-    const semanas = document.getElementById("semana")
 
     setInterval(function () {
         const data = new Date()

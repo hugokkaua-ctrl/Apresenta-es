@@ -311,3 +311,260 @@ hrml {
     color: #200F07;
     background: #C5E284;
 }
+
+@media only screen and (max-width: 768px) {
+    .login_area {
+        box-shadow: 0px 0px 10px 0px #200F07;
+        padding: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: column;
+        width: 90vw;
+        border: solid 1px #200F07;
+        border-radius: 15px;
+    }
+
+    .login_area h1 {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+        font-size: 67px;
+        color: #200F07;
+    }
+
+    .formulario div {
+        margin-top: 1em;
+    }
+
+    .formulario input {
+        border-radius: 10px;
+        padding: 13px 300px 13px 10px;
+        caret-color: #200F07;
+        outline: #200F07;
+        border: 1px solid #C5E284;
+        transition: ease 1s;
+    }
+
+    .formulario label {
+        color: #200F07;
+        font-size: 35px;
+    }
+
+
+    #recuperar_senha {
+        margin-top: 0;
+        position: relative;
+        left: 17em;
+    }
+
+    #recuperar_senha span {
+        transition: ease 0.5s;
+        font-weight: bold;
+        color: #200F07;
+        cursor: pointer;
+        font-size: 22px;
+    }
+
+    #btn1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1em;
+        text-align: center;
+    }
+
+    #btn1 button {
+        transition: ease 0.5s;
+        color: #C5E284;
+        font-size: 25px;
+        border-radius: 10px;
+        background: #200F07;
+        border: solid 1px #C5E284;
+        padding: 13px 150px 13px 150px;
+    }
+
+    .divisor {
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .divisor p {
+        color: #200F07;
+        transition: ease 0.5s;
+        font-size: 25px;
+    }
+
+    .divisor span {
+        font-size: 1px;
+        font-weight: bolder;
+        border-left: #200F07 2px solid;
+        border-right: #200F07 2px solid;
+        border-width: 70px;
+    }
+
+
+    #contato1 {
+        display: flex;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    #contato1 a {
+        transition: ease 0.5s;
+        border-radius: 10px;
+        font-size: 25px;
+        padding: 10px 0px 10px 0px;
+        width: 210px;
+        background: #200F07;
+        color: #C5E284;
+        text-decoration: none;
+    }
+
+    .tema1 {
+        cursor: pointer;
+        padding: 13px;
+        position: fixed;
+        top: 100px;
+        right: 20px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 45px;
+        border: none;
+        background: #200F07;
+    }
+
+    .tema1 i {
+        color: #C5E284;
+        font-size: 32px;
+        padding: 2px;
+    }
+
+    #infors {
+        position: fixed;
+        top: 50px;
+        right: 80px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        box-shadow: 0px 0px 10px 0px #200F07;
+        width: 230px;
+        border-radius: 20px;
+    }
+
+    #horas {
+        color: #200F07;
+        margin-bottom: 10px;
+        font-size: 26px;
+    }
+
+    #datas {
+        color: #200F07;
+        margin-top: 0;
+        margin-bottom: 3px;
+        font-size: 26px;
+    }
+
+    #semana {
+        margin-top: 0;
+        margin-bottom: 5px;
+        font-weight: bolder;
+        color: #200F07;
+        font-size: 37px;
+    }
+
+
+
+
+    .tema2 {
+        display: none;
+        cursor: pointer;
+        padding: 13px;
+        position: fixed;
+        top: 140px;
+        right: 481px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 45px;
+        border: none;
+        background: #C5E284;
+    }
+
+    .tema2 i {
+        color: #702806;
+        font-size: 32px;
+        padding: 2px;
+    }
+
+    #recuperar_senha2 {
+        display: none;
+        margin-top: 0;
+        position: relative;
+        left: 23em;
+    }
+
+    #recuperar_senha2 span {
+        transition: ease 0.5s;
+        font-weight: bold;
+        color: #C5E284;
+        cursor: pointer;
+        font-size: 22px;
+    }
+
+    .divisor2 {
+        display: none;
+        cursor: pointer;
+        text-align: center;
+    }
+
+    .divisor2 p {
+        color: #C5E284;
+        transition: ease 0.5s;
+        font-size: 25px;
+    }
+
+    .divisor2 span {
+        font-size: 1px;
+        font-weight: bolder;
+        border-left: #C5E284 2px solid;
+        border-right: #C5E284 2px solid;
+        border-width: 100px;
+    }
+
+
+    #btn2 {
+        display: none;
+        padding: 1em;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    #btn2 button {
+        transition: ease 0.5s;
+        color: #C5E284;
+        font-size: 25px;
+        border-radius: 10px;
+        background: #200F07;
+        border: solid 1px #C5E284;
+        padding: 13px 150px 13px 150px;
+    }
+
+    #contato2 {
+        display: none;
+        justify-content: space-around;
+        text-align: center;
+    }
+
+    #contato2 a {
+        transition: ease 0.5s;
+        border-radius: 10px;
+        font-size: 25px;
+        padding: 10px 0px 10px 0px;
+        width: 210px;
+        background: #200F07;
+        color: #C5E284;
+        text-decoration: none;
+    }
+
+
+}

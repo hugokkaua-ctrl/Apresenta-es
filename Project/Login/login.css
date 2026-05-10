@@ -315,7 +315,6 @@ hrml {
 @media only screen and (max-width: 768px) {
     .login_area {
         box-shadow: 0px 0px 10px 0px #200F07;
-        margin-top: 150px;
         padding: 1em;
         display: flex;
         align-items: center;
@@ -426,7 +425,7 @@ hrml {
         cursor: pointer;
         padding: 13px;
         position: absolute;
-        top: 175px;
+        top: 100px;
         right: 20px;
         border-top-right-radius: 15px;
         border-bottom-left-radius: 45px;
@@ -441,10 +440,10 @@ hrml {
     }
 
     #infors {
+        display: none;
         position: fixed;
         top: 10px;
         right: 30px;
-        display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -482,8 +481,8 @@ hrml {
         cursor: pointer;
         padding: 13px;
         position: fixed;
-        top: 140px;
-        right: 481px;
+        top: 85px;
+        right: 21px;
         border-top-right-radius: 15px;
         border-bottom-left-radius: 45px;
         border: none;

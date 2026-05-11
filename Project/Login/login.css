@@ -440,34 +440,34 @@ hrml {
     }
 
     #infors {
-        display: none;
-        position: fixed;
-        top: 10px;
-        right: 30px;
-        flex-direction: column;
+        display: flex;
+        top: 0;
+        width: 420px;
+        padding: 6px;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         box-shadow: 0px 0px 10px 0px #200F07;
-        width: 230px;
-        border-radius: 20px;
+        border-radius: 0px 0px 10px 10px;
     }
 
     #horas {
         color: #200F07;
-        margin-bottom: 10px;
+        margin-top: 0;
+        margin-bottom: 0px;
         font-size: 26px;
     }
 
     #datas {
         color: #200F07;
         margin-top: 0;
-        margin-bottom: 3px;
+        margin-bottom: 0px;
         font-size: 26px;
     }
 
     #semana {
         margin-top: 0;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
         font-weight: bolder;
         color: #200F07;
         font-size: 37px;

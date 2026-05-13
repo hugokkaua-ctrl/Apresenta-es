@@ -91,8 +91,8 @@ function Calendario() {
         const semana = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"]
         const sema = semana[data.getDay()]
 
-        if (mes < 10 || dia < 10) {
-            dias.innerHTML = ano + "/" + "0" + mes + "/" + "0" + dia
+        if (mes < 10) {
+            dias.innerHTML = ano + "/" + "0" + mes + "/" + dia
             horario.innerHTML = hora + "H: " + min + "M: " + sec + "S"
             semanas.innerHTML = sema
         }

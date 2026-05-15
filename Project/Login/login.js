@@ -100,4 +100,16 @@ function Calendario() {
     }, 1000);
 }
 
+function validar(senha) {
+    if (senha.length < 8 || /\d/.test(senha)) {
+        alert("Fenha Fraca ou sem numeros")
+    } else {
+        alert("Conta criada")
+    }
+}
 
+function enviar() {
+    const inputSenha = document.getElementById("senha").value
+
+    validar(inputSenha)
+}

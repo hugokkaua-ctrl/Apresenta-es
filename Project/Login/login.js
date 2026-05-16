@@ -100,16 +100,26 @@ function Calendario() {
     }, 1000);
 }
 
-function validar(senha) {
+function validarSenha(senha) {
     if (senha.length < 8 || /\d/.test(senha)) {
-        alert("Fenha Fraca ou sem numeros")
+        console.log("Fenha Fraca ou sem numeros")
     } else {
-        alert("Conta criada")
+        console.log("Conta criada")
+    }
+}
+
+function validaNome(nome) {
+    if (nome.length < 6) {
+        console.log(nome + " e muito curto")
+    } else {
+        console.group(nome + " foi adicionado")
     }
 }
 
 function enviar() {
     const inputSenha = document.getElementById("senha").value
+    const inputNome = document.getElementById("nome").value
 
-    validar(inputSenha)
+    validarSenha(inputSenha)
+    validaNome(inputNome)
 }

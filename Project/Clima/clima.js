@@ -85,8 +85,8 @@ function HorasDate() {
             document.querySelector("#hora").innerText = horas + ":" + min + ":" + sec
         }
 
-        if (mes < 10 || dia < 10) {
-            document.querySelector("#data").innerText = "0" + dia + "/0" + mes + "/" + ano
+        if (mes < 10) {
+            document.querySelector("#data").innerText = dia + "/0" + mes + "/" + ano
             document.querySelector("#semana").innerText = seman
         } else {
             document.querySelector("#data").innerText = dia + mes + "/" + "/" + ano

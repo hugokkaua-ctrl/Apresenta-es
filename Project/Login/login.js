@@ -100,19 +100,28 @@ function Calendario() {
     }, 1000);
 }
 
+/*DIVISORIA */
+
+const contas = []
+
+const butao = document.getElementById("butao")
+
+const mensagem = document.getElementById("mensagem")
+const mensagemErro = document.getElementById("mensagemError")
+
 function validarSenha(senha) {
-    if (senha.length < 8 || /\d/.test(senha)) {
-        console.log("Fenha Fraca ou sem numeros")
+    if (senha.length < 5 || !/\d/.test(senha)) {
+        console.log("Senha Fraca(minimo 8 digito e um numero) ou Vazia")
     } else {
         console.log("Conta criada")
     }
 }
 
-function validaNome(nome) {
-    if (nome.length < 6) {
+function validarNome(nome) {
+    if (nome.length < 3) {
         console.log(nome + " e muito curto")
     } else {
-        console.group(nome + " foi adicionado")
+        console.log(nome + " foi adicionado")
     }
 }
 
@@ -120,6 +129,43 @@ function enviar() {
     const inputSenha = document.getElementById("senha").value
     const inputNome = document.getElementById("nome").value
 
+    if (inputNome == "" || inputSenha == "") {
+        mensagemErro.style.display = "flex"
+    } else {
+        mensagem.style.display = "flex"
+    }
+
+    mensagem.style.display = "flex"
     validarSenha(inputSenha)
-    validaNome(inputNome)
+    validarNome(inputNome)
+    butao.style.transform = "translateY(-6px)"
+    butao.style.background = "#702806"
+    setTimeout(() => {
+        butao.style.background = "#200F07"
+        butao.style.transform = "translateY(6px)"
+    }, 750);
+
+    setTimeout(() => {
+        mensagem.style.display = "none"
+        mensagem.style.transition = "ease 2s"
+
+        mensagemErro.style.display = "none"
+        mensagem.style.transition = "ease 2s"
+    }, 2000)
+}
+
+function submit() {
+    const Senha = document.getElementById("senha").value
+    const Nome = document.getElementById("nome").value
+
+    const novo = { name: Nome, senha: Senha }
+    contas.push(novo)
+}
+
+/*MENU */
+const config = document.getElementById("configurar")
+const barra = document.getElementById("itens")
+
+function menu() {
+    barra.style.marginLeft = "-1550px"
 }

@@ -5,6 +5,7 @@
 body,
 hrml {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 90vh;
@@ -310,6 +311,77 @@ hrml {
     transform: translateY(-3px);
     color: #200F07;
     background: #C5E284;
+}
+
+#mensagem {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 70px;
+    width: 35vw;
+    position: fixed;
+    top: 5px;
+    color: rgba(3, 64, 0, 0.72);
+    background: rgb(146, 246, 80);
+    border-radius: 10px;
+    border: solid rgb(116, 221, 116) 1px;
+}
+
+#mensagem h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+#mensagemError {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    height: 70px;
+    width: 35vw;
+    position: fixed;
+    top: 5px;
+    color: red;
+    background: #ff8e8e;
+    border-radius: 10px;
+    border: solid rgb(233, 38, 38) 1px;
+}
+
+#mensagemError h1 {
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+#configurar {
+    border: solid 1px #C5E284;
+    position: fixed;
+    left: 1em;
+    top: 1em;
+    background: #200F07;
+    border-radius: 10px;
+    padding: 1em;
+}
+
+#configurar i {
+    color: #C5E284;
+    font-size: 30px;
+    padding: 0;
+    margin: 0;
+}
+
+#configurar:hover {
+    background: #702806;
+}
+
+/*300px aparece*/
+#itens {
+    background: #200F07;
+    position: fixed;
+    margin-left: -1850px;
+    top: 0px;
+    height: 100vh;
+    width: 150px;
 }
 
 @media only screen and (max-width: 768px) {

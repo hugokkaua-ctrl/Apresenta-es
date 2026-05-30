@@ -10,6 +10,15 @@
 </head>
 
 <body onload="Calendario()">
+
+    <div id="mensagem">
+        <h1>Conta Criada</h1>
+    </div>
+
+    <div id="mensagemError">
+        <h1>Erro na crição</h1>
+    </div>
+
     <div class="Container">
         <div id="area" class="login_area">
             <h1 id="title">Cadastrar usuario</h1>
@@ -19,11 +28,12 @@
                     <div>
                         <label id="label1">Seu Nome</label>
                     </div>
-                    <input type="text" id="nome" name="name" placeholder="Nome" />
+                    <input type="text" text="Nome do usuario" id="nome" name="name" placeholder="Nome" />
+
                     <div>
                         <label id="label2">Sua Senha</label>
                     </div>
-                    <input type="password" id="senha" name="passowrd" placeholder="Senha" />
+                    <input type="password" text="Senah do usuario" id="senha" name="passowrd" placeholder="Senha" />
 
                     <div id="recuperar_senha">
                         <span>Esqueceu a senha?</span>
@@ -34,11 +44,11 @@
                     </div>
 
                     <div id="btn1">
-                        <button type="submit" onclick="enviar()">Enviar</button>
+                        <button id="butao" type="button" onclick="enviar()">Enviar</button>
                     </div>
 
                     <div id="btn2">
-                        <button type="submit" onclick="envia()">Enviar</button>
+                        <button id="butao" type="button" onclick="enviar()">Enviar</button>
                     </div>
                 </form>
 
@@ -76,6 +86,16 @@
         <p id="horas"></p>
         <p id="datas"></p>
         <p id="semana"></p>
+    </div>
+    <!--MENU -->
+    <div onclick="menu()" id="configurar">
+        <a><i class="fa-solid fa-bars"></i></a>
+    </div>
+
+    <div id="itens">
+        <ul>
+            <li>Item</li>
+        </ul>
     </div>
 </body>
 

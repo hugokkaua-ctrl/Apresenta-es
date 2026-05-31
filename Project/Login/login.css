@@ -384,6 +384,28 @@ hrml {
     width: 150px;
 }
 
+#itens a {
+    color: #200F07;
+    background: #C5E284;
+    position: relative;
+    left: 100px;
+    padding: 13px;
+    top: 18px;
+}
+
+#itens a:hover {
+    cursor: pointer;
+}
+
+#itens ul {
+    margin-top: 2em;
+}
+
+#itens li {
+    color: #C5E284;
+    list-style: none;
+}
+
 @media only screen and (max-width: 768px) {
 
     .login_area {

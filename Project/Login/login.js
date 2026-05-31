@@ -167,5 +167,5 @@ const config = document.getElementById("configurar")
 const barra = document.getElementById("itens")
 
 function menu() {
-    barra.style.marginLeft = "-1550px"
+    barra.style.marginLeft = "-1450px"
 }

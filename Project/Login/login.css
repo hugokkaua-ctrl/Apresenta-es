@@ -421,6 +421,14 @@ hrml {
     border: solid 1px #C5E284;
     border-radius: 5px;
     font-size: 25px;
+    padding: 5px;
+    transition: ease 0.8s;
+}
+
+#itens li:hover {
+    transform: translateY(-2px);
+    background: #C5E284;
+    color: #200F07;
 }
 
 @media only screen and (max-width: 768px) {

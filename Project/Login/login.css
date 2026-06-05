@@ -394,7 +394,7 @@ hrml {
     margin-top: 10px;
     margin-right: 10px;
     margin-left: 10px;
-    padding: 1px;
+    padding: 5px 10px 5px 10px;
     font-size: 40px;
     justify-content: center;
     align-items: center;
@@ -418,10 +418,11 @@ hrml {
     color: #C5E284;
     list-style: none;
     margin-top: 1em;
-    border: solid 1px #C5E284;
+    border: solid 1px #702806;
+    background: #702806;
     border-radius: 5px;
     font-size: 25px;
-    padding: 5px;
+    padding: 5px 30px 5px 30px;
     transition: ease 0.8s;
 }
 

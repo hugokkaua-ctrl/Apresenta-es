@@ -168,7 +168,7 @@ const barra = document.getElementById("itens")
 
 function menu() {
     barra.style.transition = "ease 2s"
-    barra.style.marginLeft = "-1449px"
+    barra.style.marginLeft = "-1400px"
 }
 
 const fecharMenu = document.getElementById("fechaMenu")

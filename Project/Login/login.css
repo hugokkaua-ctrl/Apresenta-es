@@ -432,6 +432,10 @@ hrml {
     color: #200F07;
 }
 
+#redesSociais {}
+
+#redesSociais a {}
+
 @media only screen and (max-width: 768px) {
 
     .login_area {

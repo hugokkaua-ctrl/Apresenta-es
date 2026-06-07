@@ -432,9 +432,17 @@ hrml {
     color: #200F07;
 }
 
-#redesSociais {}
+#redesSociais {
+    padding: 5px;
+    border-radius: 10px;
+    background: #C5E284;
+    margin-top: 340px;
+}
 
-#redesSociais a {}
+#redesSociais a {
+    font-size: 35px;
+    padding: 5px;
+}
 
 @media only screen and (max-width: 768px) {
 

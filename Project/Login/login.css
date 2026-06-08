@@ -433,15 +433,25 @@ hrml {
 }
 
 #redesSociais {
-    padding: 5px;
+    height: 120px;
     border-radius: 10px;
     background: #C5E284;
-    margin-top: 340px;
+    margin-top: 360px;
 }
 
 #redesSociais a {
-    font-size: 35px;
+    color: #C5E284;
+    background: #702806;
+    font-size: 30px;
     padding: 5px;
+}
+
+#redesSociais a:hover {
+    background: #200F07;
+}
+
+#redesSociais i {
+    margin-left: 10px;
 }
 
 @media only screen and (max-width: 768px) {

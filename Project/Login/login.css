@@ -384,7 +384,7 @@ hrml {
     margin-left: -1850px;
     top: 0px;
     height: 100vh;
-    width: 200px;
+    width: 240px;
 }
 
 #itens a {
@@ -417,12 +417,13 @@ hrml {
 #itens li {
     color: #C5E284;
     list-style: none;
+    text-align: center;
     margin-top: 1em;
     border: solid 1px #702806;
     background: #702806;
     border-radius: 5px;
     font-size: 25px;
-    padding: 5px 30px 5px 30px;
+    padding: 5px 20px 5px 20px;
     transition: ease 0.8s;
 }
 

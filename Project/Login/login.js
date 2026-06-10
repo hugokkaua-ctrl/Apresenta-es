@@ -168,15 +168,15 @@ const barra = document.getElementById("itens")
 
 function menu() {
     barra.style.transition = "ease 2s"
-    barra.style.marginLeft = "-1400px"
+    barra.style.left = "0px"
 }
 
 const fecharMenu = document.getElementById("fechaMenu")
 
 
 function fechaMenu() {
-    barra.style.transition = "ease 4s"
-    barra.style.marginRight = "1449px"
+    barra.style.transition = "ease 2s"
+    barra.style.left = "-250px"
     fecharMenu.style.background = "#b03a04"
     fecharMenu.style.transform = "translateY(-3px)"
 

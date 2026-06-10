@@ -380,8 +380,9 @@ hrml {
     position: fixed;
     display: flex;
     align-items: center;
+    position: fixed;
     flex-direction: column;
-    margin-left: -1850px;
+    left: -250px;
     top: 0px;
     height: 100vh;
     width: 240px;
@@ -441,6 +442,7 @@ hrml {
 }
 
 #redesSociais a {
+    text-decoration: none;
     color: #C5E284;
     background: #702806;
     font-size: 30px;

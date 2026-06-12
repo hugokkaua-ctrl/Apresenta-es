@@ -185,3 +185,6 @@ function fechaMenu() {
     }, 500);
 
 }
+
+
+function abrirTempo() { }

@@ -180,6 +180,7 @@ hrml {
     box-shadow: 0px 0px 10px 0px #200F07;
     width: 230px;
     border-radius: 20px;
+
 }
 
 #infors:hover {
@@ -211,6 +212,34 @@ hrml {
     font-size: 37px;
 }
 
+#open-infors {
+    transition: ease 1.5s;
+    position: fixed;
+    top: 50px;
+    right: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px 0px #200F07;
+    border-radius: 100%;
+    padding: 10px;
+    display: none;
+}
+
+#open-infors:hover {
+    transform: translateY(-5px);
+    background: #200F07;
+}
+
+#open-infors:hover i {
+    color: #C5E284;
+}
+
+#open-infors i {
+    color: #200F07;
+    font-size: 35px;
+}
 
 
 

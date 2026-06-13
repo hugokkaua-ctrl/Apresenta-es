@@ -187,7 +187,34 @@ hrml {
     background: #200F07;
 }
 
+#infors:hover a {
+    background: #702806;
+}
+
 #infors:hover p {
+    color: #C5E284;
+}
+
+#infors a {
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    margin-left: 190px;
+    margin-top: 0px;
+    background: #200F07;
+    padding: 10px;
+}
+
+#infors a:hover {
+    background: #C5E284;
+}
+
+#infors a:hover i {
+    color: #200F07;
+}
+
+#infors i {
+    padding: 0;
+    font-size: 25px;
     color: #C5E284;
 }
 

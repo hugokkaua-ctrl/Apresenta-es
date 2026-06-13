@@ -187,4 +187,6 @@ function fechaMenu() {
 }
 
 
-function abrirTempo() { }
+function abrirTempo() {
+
+}

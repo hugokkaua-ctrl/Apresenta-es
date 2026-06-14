@@ -186,7 +186,19 @@ function fechaMenu() {
 
 }
 
+const abertura = document.getElementById("openInfors")
+const fechar = document.getElementById("infors")
+
+function fecharInfors() {
+    abertura.style.transition = "ease 12"
+    fechar.style.trasition = "ease 2s"
+    abertura.style.display = "flex"
+    fechar.style.display = "none"
+}
 
 function abrirTempo() {
-
+    abertura.style.transition = "ease 2s"
+    fechar.style.trasition = "ease 2s"
+    abertura.style.display = "none"
+    fechar.style.display = "flex"
 }

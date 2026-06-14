@@ -180,7 +180,7 @@ hrml {
     box-shadow: 0px 0px 10px 0px #200F07;
     width: 230px;
     border-radius: 20px;
-
+    display: none;
 }
 
 #infors:hover {
@@ -239,7 +239,7 @@ hrml {
     font-size: 37px;
 }
 
-#open-infors {
+#openInfors {
     transition: ease 1.5s;
     position: fixed;
     top: 50px;
@@ -251,19 +251,18 @@ hrml {
     box-shadow: 0px 0px 10px 0px #200F07;
     border-radius: 100%;
     padding: 10px;
-    display: none;
 }
 
-#open-infors:hover {
+#openInfors:hover {
     transform: translateY(-5px);
     background: #200F07;
 }
 
-#open-infors:hover i {
+#openInfors:hover i {
     color: #C5E284;
 }
 
-#open-infors i {
+#openInfors i {
     color: #200F07;
     font-size: 35px;
 }

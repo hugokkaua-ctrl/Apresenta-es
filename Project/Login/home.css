@@ -6,4 +6,12 @@ body,
 html {
     background: #C5E284;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#titulo {
+    color: #200F07;
+    font-size: 100px;
 }

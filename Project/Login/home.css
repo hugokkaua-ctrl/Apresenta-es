@@ -7,11 +7,25 @@ html {
     background: #C5E284;
     margin: 0;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    min-height: 80vh;
 }
 
 #titulo {
+    margin-top: 0;
+}
+
+#titulo h1 {
     color: #200F07;
     font-size: 100px;
+}
+
+#criar {
+    margin-top: 0;
+}
+
+#criar a {
+    font-size: 50px;
 }

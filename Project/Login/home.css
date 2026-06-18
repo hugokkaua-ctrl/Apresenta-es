@@ -27,5 +27,19 @@ html {
 }
 
 #criar a {
-    font-size: 50px;
+    border: solid 1px #200F07;
+    padding: 10px 60px 10px 60px;
+    border-radius: 20px;
+    background: #200F07;
+    text-decoration: none;
+    color: #C5E284;
+    font-size: 60px;
+    transition: ease 1s;
+}
+
+#criar a:hover {
+    border: solid 1px #702806;
+    color: #C5E284;
+    background: #702806;
+    transform: translateY(-10px);
 }

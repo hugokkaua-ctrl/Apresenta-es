@@ -43,3 +43,7 @@ html {
     background: #702806;
     transform: translateY(-10px);
 }
+
+#tempo {
+    position: fixed;
+}

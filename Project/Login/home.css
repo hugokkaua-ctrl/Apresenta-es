@@ -45,7 +45,29 @@ html {
 }
 
 #tempo {
+    border-radius: 10px;
+    width: 150px;
+    background: #200F07;
+    height: 100px;
     text-align: center;
     position: fixed;
     top: 10px;
+    transition: ease 1.2s;
+    cursor: pointer;
+}
+
+#tempo:hover {
+    background: #702806;
+}
+
+#horas {
+    font-size: 30px;
+    color: #C5E284;
+    margin-bottom: 0;
+}
+
+#dias {
+    font-size: 30px;
+    color: #C5E284;
+    margin-top: 0;
 }

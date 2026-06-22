@@ -45,6 +45,10 @@ html {
 }
 
 #tempo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     border-radius: 10px;
     width: 150px;
     background: #200F07;
@@ -70,4 +74,12 @@ html {
     font-size: 30px;
     color: #C5E284;
     margin-top: 0;
+}
+
+#fechar {
+    top: 50px;
+    right: 50px;
+    position: fixed;
+    background: #200F07;
+    color: #C5E284;
 }

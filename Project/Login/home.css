@@ -76,10 +76,21 @@ html {
     margin-top: 0;
 }
 
-#fechar {
+#open {
     top: 50px;
     right: 50px;
     position: fixed;
     background: #200F07;
     color: #C5E284;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+#open:hover {
+    background: #702806;
+}
+
+#open i {
+    padding: 10px;
+    font-size: 40px;
 }

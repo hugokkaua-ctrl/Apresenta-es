@@ -34,7 +34,6 @@ textarea {
     flex-flow: row wrap;
     color: #FFFFFF;
     background: #020617;
-    border-bottom: #334155 solid 3px;
     height: 13vh;
     width: 100%;
 }
@@ -162,7 +161,7 @@ textarea {
 
 #pezinho a:hover {
     color: #242222;
-    background: #848484;
+    background: #1e293b;
     width: 100%;
 }
 
@@ -194,10 +193,15 @@ textarea {
     margin-left: 3%;
     margin-right: 3%;
     background: #1e293b;
-    color: #FFFFFF;
-    box-shadow: 0, 25px, 35px, rgba(0, 0, 0, 0.5);
+    color: #cbd5e1;
+    box-shadow: 0, 8px, 30px, rgba(0, 0, 0, 0.);
+    border-bottom: #334155 solid 3px;
     padding: 15px 5px 15px 5px;
     border-radius: 10px;
+}
+
+.informacoes h1 {
+    color: #FFFFFF;
 }
 
 .falando-de-mim {
@@ -215,7 +219,12 @@ textarea {
     font-size: 60px;
 }
 
+.falando-de-mim span {
+    color: #60a5fa;
+}
+
 .falando-de-mim p {
+    color: #cbd5e1;
     margin-top: 0;
     padding-top: 5px;
     font-size: 23px;
@@ -230,23 +239,23 @@ textarea {
 }
 
 #contato a {
-    box-shadow: 0 12px 20px (rgba(0, 0, 0, 0.5));
+    box-shadow: 0 12px 20px (rgba(0, 0, 0, 0.3));
     text-decoration: none;
     color: #FFFFFF;
     background: #2b82f6;
     padding: 20px;
     border-radius: 15px;
+    border: 2px solid #2b82f6;
+    transition: ease 0.7s;
+    cursor: pointer;
     font-size: 45px;
 }
 
 #contato a:hover {
-    transform: translateY(-20px);
-    transition: ease 0.2s;
-    cursor: pointer;
-    background: #0a0a0a;
+    background: #60a5fa;
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
-
+    padding: 23px;
 }
 
 .minha-foto {
@@ -271,12 +280,14 @@ textarea {
 }
 
 .descobrir a {
+    padding: 2px;
+    border-radius: 5px;
     color: #FFFFFF;
     text-decoration: none;
 }
 
 .descobrir a:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: #020617;
     text-decoration: underline;
 }
 
@@ -315,6 +326,7 @@ textarea {
 }
 
 .cards p {
+    color: #cbd5e1;
     font-size: 19px;
     text-align: center;
 }
@@ -369,7 +381,9 @@ textarea {
 /*itens do card*/
 .calculadora {
     color: #FFFFFF;
-    background: #242222;
+    background: #1e293b;
+    box-shadow: 0, 8px, 30px, rgba(0, 0, 0, 0.);
+    border-bottom: #334155 solid 3px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -383,7 +397,9 @@ textarea {
 
 .App_Clima {
     color: #FFFFFF;
-    background: #242222;
+    background: #1e293b;
+    box-shadow: 0, 8px, 30px, rgba(0, 0, 0, 0.);
+    border-bottom: #334155 solid 3px;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
@@ -396,7 +412,9 @@ textarea {
 
 .pagina_login {
     color: #FFFFFF;
-    background: #242222;
+    box-shadow: 0, 8px, 30px, rgba(0, 0, 0, 0.);
+    border-bottom: #334155 solid 3px;
+    background: #1e293b;
     display: flex;
     flex-flow: column wrap;
     align-items: center;

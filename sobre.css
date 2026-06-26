@@ -314,8 +314,7 @@ textarea {
 }
 
 .cards div:hover {
-    transform: translateY(-3px);
-    background: #0a0a0a;
+    transform: translateY(-2px);
     transition: ease 0.3s;
     cursor: pointer;
 }
@@ -347,9 +346,13 @@ textarea {
     margin-right: 2%;
     margin-left: 2%;
     margin-bottom: 3%;
-    background: #393939;
+    background: #0f172a;
     border-radius: 20px;
     box-shadow: 5px 5px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.areaP:hover {
+    background: #2b82f6;
 }
 
 /*area de organiza os botoes dos projetos*/
@@ -362,20 +365,23 @@ textarea {
 
 
 .bta a {
-    background: #FFFFFF;
+    background: #2b82f6;
     padding: 10px;
     margin-left: 25px;
     margin-right: 25px;
     border-radius: 20px;
     font-size: 27px;
     text-decoration: none;
-    color: #0a0a0a;
+    color: #FFFFFF;
+    transition: ease 1s;
 }
 
+
 .bta a:hover {
-    background: #0a0a0a;
-    color: #FFFFFF;
-    border: solid 1px #FFFFFF;
+    transform: translateY(-3px);
+    background: #60a5fa;
+    color: #0a0a0a;
+    border: solid 1px #2b82f6;
 }
 
 /*itens do card*/

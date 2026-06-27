@@ -195,7 +195,7 @@ textarea {
     background: #1e293b;
     color: #cbd5e1;
     box-shadow: 0, 8px, 30px, rgba(0, 0, 0, 0.);
-    border-bottom: #334155 solid 3px;
+    border: #334155 solid 3px;
     padding: 15px 5px 15px 5px;
     border-radius: 10px;
 }
@@ -348,7 +348,6 @@ textarea {
     margin-bottom: 3%;
     background: #0f172a;
     border-radius: 20px;
-    box-shadow: 5px 5px 5px 15px rgba(0, 0, 0, 0.1);
 }
 
 .areaP:hover {
@@ -439,14 +438,14 @@ textarea {
 }
 
 .habilidades h1 {
-    color: #FFFFFF;
+    color: #cbd5e1;
     margin-bottom: 0;
     padding-bottom: 0;
     font-size: 70px;
 }
 
 .habilidades p {
-    color: #FFFFFF;
+    color: #cbd5e1;
     margin-top: 3px;
     padding-top: 0;
     font-size: 25px;
@@ -467,27 +466,28 @@ textarea {
 .cardsH h2 {
     font-size: 30px;
     margin-top: 15%;
-    color: #FFFFFF;
+    color: #cbd5e1;
 }
 
 .cardsH div {
-    background: #464646;
+    background: #1e293b;
     width: 270px;
     height: 35vh;
     border-radius: 20px;
-    border: solid 3px #848484;
     padding: 15px;
-    box-shadow: 0px 0px 0px 0.5px rgba(0, 0, 0, 0.5);
+    border: solid 3px #334155;
+    box-shadow: 5px 5px 5px 15px rgba(0, 0, 0, 0.1);
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
     cursor: pointer;
+    transition: ease 0.6s;
 }
 
 .cardsH div:hover {
     transform: translateY(-5px);
-    border: 3px solid #FFFFFF;
+    border: 3px solid #2b82f6;
 }
 
 /*Formação e estudos*/
@@ -516,7 +516,7 @@ textarea {
 
 /*formação*/
 .formacao h2 {
-    color: #FFFFFF;
+    color: #cbd5e1;
     font-size: 40px;
     letter-spacing: 2px;
 }
@@ -536,9 +536,10 @@ textarea {
     align-items: center;
     height: auto;
     width: 600px;
-    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.6);
-    background: #353232;
-    color: #FFFFFF;
+    border: solid 3px #334155;
+    box-shadow: 5px 5px 5px 15px rgba(0, 0, 0, 0.1);
+    background: #1e293b;
+    color: #cbd5e1;
     padding: 35px;
     border-radius: 25px;
     margin-top: 6%;
@@ -548,6 +549,7 @@ textarea {
 
 .forma:hover {
     transform: translateY(-5px);
+    border: solid 1px #2b82f6;
 }
 
 
@@ -557,8 +559,9 @@ textarea {
     align-items: center;
     height: auto;
     width: 600px;
-    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.6);
-    background: #353232;
+    border: solid 3px #334155;
+    box-shadow: 5px 5px 5px 15px rgba(0, 0, 0, 0.1);
+    background: #1e293b;
     color: #FFFFFF;
     padding: 35px;
     border-radius: 25px;
@@ -569,19 +572,34 @@ textarea {
 
 .cursos:hover {
     transform: translateY(-5px);
+    border: solid 1px #2b82f6;
 }
 
 /*estudos*/
 .estudando {
-    background: #353232;
     display: flex;
     justify-content: center;
     align-items: flex-start;
     flex-flow: column wrap;
-    padding: 10px;
-    box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.6);
+    padding: 5px;
+    border: solid 3px #334155;
+    box-shadow: 5px 5px 5px 15px rgba(0, 0, 0, 0.1);
+    background: #1e293b;
     border-radius: 25px;
+    transition: ease 0.5s;
 }
+
+.estudando div {
+    color: #FFFFFF;
+    margin-top: 5%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: ease 0.5;
+    width: 90%;
+}
+
 
 .Estudos h2 {
     font-size: 40px;
@@ -593,16 +611,6 @@ textarea {
     font-size: 45px;
 }
 
-.estudando div {
-    color: #FFFFFF;
-    margin-top: 5%;
-    margin-left: 10%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    transition: ease 0.5;
-    width: 80%;
-}
 
 .Estudos img {
     margin-right: 30%;
@@ -611,6 +619,9 @@ textarea {
 .Estudos div:hover {
     cursor: pointer;
     transform: translateY(-5px);
+    border: solid 1px #2b82f6;
+    border-radius: 10px;
+    transition: ease 0.5s;
 }
 
 /*navbar2*/

@@ -32,7 +32,7 @@ textarea {
     display: flex;
     align-items: center;
     flex-flow: row wrap;
-    color: #FFFFFF;
+    color: #cbd5e1;
     background: #020617;
     height: 13vh;
     width: 100%;
@@ -41,7 +41,7 @@ textarea {
 #navbarr a {
     justify-content: space-around;
     margin-left: 40px;
-    color: #FFFFFF;
+    color: #cbd5e1;
     font-size: 23px;
     padding: 12px 25px 12px 25px;
     text-decoration: none;
@@ -90,7 +90,7 @@ textarea {
 }
 
 #BotaoMenu i {
-    color: #FFFFFF;
+    color: #cbd5e1;
     font-size: 37px;
     margin-right: 3%;
     margin-left: 3%;
@@ -133,7 +133,7 @@ textarea {
     border-bottom: #242222 solid 4px;
     margin-top: 1px;
     font-size: 23px;
-    color: #FFFFFF;
+    color: #cbd5e1;
 }
 
 #menus a:hover {
@@ -179,7 +179,7 @@ textarea {
 
 #menu-titulo h2 {
     font-size: 25px;
-    color: #FFFFFF;
+    color: #cbd5e1;
     padding-top: 0;
 }
 
@@ -201,7 +201,7 @@ textarea {
 }
 
 .informacoes h1 {
-    color: #FFFFFF;
+    color: #cbd5e1;
 }
 
 .falando-de-mim {
@@ -241,7 +241,7 @@ textarea {
 #contato a {
     box-shadow: 0 12px 20px (rgba(0, 0, 0, 0.3));
     text-decoration: none;
-    color: #FFFFFF;
+    color: #cbd5e1;
     background: #2b82f6;
     padding: 20px;
     border-radius: 15px;
@@ -253,8 +253,8 @@ textarea {
 
 #contato a:hover {
     background: #60a5fa;
-    color: #FFFFFF;
-    border: 2px solid #FFFFFF;
+    color: #cbd5e1;
+    border: 2px solid #cbd5e1;
     padding: 23px;
 }
 
@@ -282,7 +282,7 @@ textarea {
 .descobrir a {
     padding: 2px;
     border-radius: 5px;
-    color: #FFFFFF;
+    color: #cbd5e1;
     text-decoration: none;
 }
 
@@ -299,7 +299,7 @@ textarea {
 }
 
 .projetos h1 {
-    color: #FFFFFF;
+    color: #cbd5e1;
     text-align: center;
     font-size: 80px;
     margin-bottom: 5px;
@@ -320,7 +320,7 @@ textarea {
 }
 
 .cards h2 {
-    color: #FFFFFF;
+    color: #cbd5e1;
     font-size: 36px;
 }
 
@@ -371,7 +371,7 @@ textarea {
     border-radius: 20px;
     font-size: 27px;
     text-decoration: none;
-    color: #FFFFFF;
+    color: #cbd5e1;
     transition: ease 1s;
 }
 
@@ -385,7 +385,7 @@ textarea {
 
 /*itens do card*/
 .calculadora {
-    color: #FFFFFF;
+    color: #cbd5e1;
     background: #1e293b;
     box-shadow: 0, 8px, 30px, rgba(0, 0, 0, 0.);
     border-bottom: #334155 solid 3px;
@@ -401,7 +401,7 @@ textarea {
 
 
 .App_Clima {
-    color: #FFFFFF;
+    color: #cbd5e1;
     background: #1e293b;
     box-shadow: 0, 8px, 30px, rgba(0, 0, 0, 0.);
     border-bottom: #334155 solid 3px;
@@ -416,7 +416,7 @@ textarea {
 }
 
 .pagina_login {
-    color: #FFFFFF;
+    color: #cbd5e1;
     box-shadow: 0, 8px, 30px, rgba(0, 0, 0, 0.);
     border-bottom: #334155 solid 3px;
     background: #1e293b;
@@ -496,11 +496,11 @@ textarea {
     flex-flow: column;
     justify-content: center;
     padding-top: 4%;
-    color: #FFFFFF;
+    color: #cbd5e1;
 }
 
 .forma-estud h1 {
-    color: #FFFFFF;
+    color: #cbd5e1;
     font-size: 60px;
     text-align: right;
     margin-right: 4%;
@@ -562,7 +562,7 @@ textarea {
     border: solid 3px #334155;
     box-shadow: 5px 5px 5px 15px rgba(0, 0, 0, 0.1);
     background: #1e293b;
-    color: #FFFFFF;
+    color: #cbd5e1;
     padding: 35px;
     border-radius: 25px;
     margin-top: 10%;
@@ -590,7 +590,7 @@ textarea {
 }
 
 .estudando div {
-    color: #FFFFFF;
+    color: #cbd5e1;
     margin-top: 5%;
     margin-left: 5%;
     display: flex;
@@ -631,7 +631,7 @@ textarea {
 
 /*footer*/
 .footer {
-    border-top: 5px solid #FFFFFF;
+    border-top: 1px solid #2b82f6;
     margin-top: 5%;
     display: flex;
     flex-flow: column;
@@ -641,20 +641,22 @@ textarea {
     height: 30vh;
     padding: 0;
     position: relative;
-    background: #242222;
-    color: #FFFFFF;
+    background: #020617;
+    color: #cbd5e1;
 }
 
 .footer h2 {
+    color: #60a5fa;
     font-size: 35px;
 }
 
 .footer p {
     font-size: 20px;
+    color: #60a5fa;
 }
 
 .footer_span {
-    color: #848484;
+    color: #cbd5e1;
 }
 
 .icones {
@@ -671,17 +673,19 @@ textarea {
 }
 
 .icones i {
-    font-size: 40px;
+    color: #2b82f6;
+    font-size: 50px;
 }
 
 .icones i:hover {
+    color: #60a5fa;
     transform: translateY(-5px);
     transition: ease 0.3s;
 }
 
 .icones a {
     text-decoration: none;
-    color: #FFFFFF
+    color: #cbd5e1
 }
 
 /*area dos contatos*/
@@ -696,7 +700,7 @@ textarea {
     letter-spacing: 3px;
     font-size: 75px;
     margin-bottom: 0;
-    color: #FFFFFF;
+    color: #cbd5e1;
 }
 
 /*formulario dos contatos*/
@@ -706,8 +710,8 @@ textarea {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    background: #343434;
-    color: #FFFFFF;
+    background: #1e293b;
+    color: #cbd5e1;
     padding: 1.5em;
 }
 
@@ -759,7 +763,7 @@ textarea {
 }
 
 #botao_form:hover {
-    color: #FFFFFF;
+    color: #cbd5e1;
     background: #242222;
     transform: translateY(-3px);
 }
@@ -781,8 +785,8 @@ textarea {
     align-items: center;
     width: 260px;
     height: 290px;
-    color: #FFFFFF;
-    background: #242222;
+    color: #cbd5e1;
+    background: #1e293b;
     border-radius: 10px;
     margin-left: 60px;
     margin-right: 60px;
@@ -809,7 +813,7 @@ textarea {
 .redes a {
     border-radius: 5px;
     padding: 13px 25px;
-    background: #343434;
+    background: #2b82f6;
     margin-top: 0.5em;
     margin-bottom: 0;
 }
@@ -834,7 +838,7 @@ textarea {
         align-items: center;
         justify-content: center;
         flex-flow: column;
-        color: #FFFFFF;
+        color: #cbd5e1;
         background: #353232;
         border-bottom: #0a0a0a solid 3px;
         height: 20vh;
@@ -871,7 +875,7 @@ textarea {
 
     #BotaoMenu2 i {
         background: #5a5a5a;
-        color: #FFFFFF;
+        color: #cbd5e1;
         font-size: 45px;
         padding: 20px;
         border-radius: 20px;
@@ -914,7 +918,7 @@ textarea {
         border-bottom: #242222 solid 4px;
         margin-top: 1px;
         font-size: 23px;
-        color: #FFFFFF;
+        color: #cbd5e1;
     }
 
     #menus a:hover {
@@ -951,7 +955,7 @@ textarea {
 
     #menu-titulo h2 {
         font-size: 25px;
-        color: #FFFFFF;
+        color: #cbd5e1;
         padding-top: 0;
     }
 
@@ -967,7 +971,7 @@ textarea {
         margin-left: 3%;
         margin-right: 3%;
         background: #242222;
-        color: #FFFFFF;
+        color: #cbd5e1;
         box-shadow: 0, 25px, 35px, rgba(0, 0, 0, 0.5);
         padding: 15px 5px 15px 5px;
         border-radius: 10px;
@@ -1030,7 +1034,7 @@ textarea {
 
     /*itens do card*/
     .calculadora {
-        color: #FFFFFF;
+        color: #cbd5e1;
         background: #242222;
         display: flex;
         flex-flow: column wrap;
@@ -1045,7 +1049,7 @@ textarea {
 
     .App_Clima {
         margin-top: 30px;
-        color: #FFFFFF;
+        color: #cbd5e1;
         background: #242222;
         display: flex;
         flex-flow: column wrap;
@@ -1059,7 +1063,7 @@ textarea {
 
     .pagina_login {
         margin-top: 30px;
-        color: #FFFFFF;
+        color: #cbd5e1;
         background: #242222;
         display: flex;
         flex-flow: column wrap;
@@ -1107,7 +1111,7 @@ textarea {
         text-align: center;
         font-size: 35px;
         margin-top: 15%;
-        color: #FFFFFF;
+        color: #cbd5e1;
     }
 
     .cardsH div {
@@ -1173,7 +1177,7 @@ textarea {
         width: 500px;
         box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.6);
         background: #353232;
-        color: #FFFFFF;
+        color: #cbd5e1;
         padding: 20px;
         border-radius: 25px;
         margin-top: 6%;
@@ -1194,7 +1198,7 @@ textarea {
         width: 500px;
         box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.6);
         background: #353232;
-        color: #FFFFFF;
+        color: #cbd5e1;
         padding: 20px;
         border-radius: 25px;
         margin-top: 10%;
@@ -1236,7 +1240,7 @@ textarea {
     }
 
     .estudando div {
-        color: #FFFFFF;
+        color: #cbd5e1;
         margin-top: 5%;
         margin-left: 5%;
         display: flex;
@@ -1278,7 +1282,7 @@ textarea {
         justify-content: center;
         align-items: center;
         background: #343434;
-        color: #FFFFFF;
+        color: #cbd5e1;
         padding: 1.5em;
     }
 
@@ -1340,7 +1344,7 @@ textarea {
         align-items: center;
         width: 420px;
         height: 290px;
-        color: #FFFFFF;
+        color: #cbd5e1;
         background: #242222;
         border-radius: 10px;
         margin-top: 1em;

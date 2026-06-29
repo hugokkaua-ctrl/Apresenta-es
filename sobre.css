@@ -34,7 +34,7 @@ textarea {
     flex-flow: row wrap;
     color: #cbd5e1;
     background: #020617;
-    height: 13vh;
+    height: 15vh;
     width: 100%;
 }
 
@@ -111,12 +111,11 @@ textarea {
     flex-flow: column wrap;
     align-items: center;
     text-align: center;
-    background: #353232;
+    background: #020617;
     transition: all 0.2s;
     width: 250px;
     margin-left: -250px;
     height: 100vh;
-    border-right: 4px solid #242222;
     z-index: 1000;
 }
 
@@ -130,15 +129,15 @@ textarea {
     text-decoration: none;
     padding: 15px 70px 15px 70px;
     width: 100%;
-    border-bottom: #242222 solid 4px;
+    border-bottom: #2b82f6 solid 4px;
     margin-top: 1px;
     font-size: 23px;
     color: #cbd5e1;
 }
 
 #menus a:hover {
-    color: #242222;
-    background: #848484;
+    color: #0a0a0a;
+    background: #60a5fa;
 }
 
 
@@ -148,20 +147,22 @@ textarea {
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
-    border-top: #242222 4px solid;
-    width: 100%;
+    border-top: #2b82f6 4px solid;
+    width: 250px;
     margin-top: 420px;
 }
 
 #pezinho a {
+    color: #cbd5e1;
     border-bottom: none;
+    background: #0f172a;
     margin-top: 0;
     padding: 20px 86px 20px 86px;
 }
 
 #pezinho a:hover {
-    color: #242222;
-    background: #1e293b;
+    color: #0a0a0a;
+    background: #60a5fa;
     width: 100%;
 }
 
@@ -173,7 +174,7 @@ textarea {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-bottom: solid 4px #242222;
+    border-bottom: solid 4px #2b82f6;
     width: 100%;
 }
 

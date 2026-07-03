@@ -4,13 +4,16 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Bungee&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nosifer&family=Poppins&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rye&family=Titan+One&display=swap');
 
-html,
 body {
     overflow-x: hidden;
     padding: 0;
     margin: 0;
     background: #0f172a;
     font-family: "Roboto", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 input,

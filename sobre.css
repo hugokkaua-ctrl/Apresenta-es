@@ -677,7 +677,6 @@ textarea {
 
 /*footer*/
 .footer {
-    border-top: 1px solid #2b82f6;
     margin-top: 5%;
     display: flex;
     flex-flow: column;
@@ -692,8 +691,9 @@ textarea {
 }
 
 .footer h2 {
+    letter-spacing: 2px;
     color: #60a5fa;
-    font-size: 35px;
+    font-size: 44px;
 }
 
 .footer p {

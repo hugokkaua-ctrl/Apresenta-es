@@ -1,0 +1,13 @@
+{
+    "project": [],
+    "categories": [
+        {
+            "id": 1,
+            "name": "Pessoal"
+        },
+        {
+            "id": 2,
+            "name": "Empresa"
+        }
+    ]
+}

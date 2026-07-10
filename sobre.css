@@ -890,15 +890,11 @@ textarea {
         justify-content: center;
         flex-flow: column;
         color: #cbd5e1;
-        background: #353232;
+        background: #020617;
         border-bottom: #0a0a0a solid 3px;
         height: 20vh;
         top: 0;
         width: 100%;
-    }
-
-    #navbarr2 a:hover {
-        background: #848484;
     }
 
     /*organização do navbarr*/
@@ -917,15 +913,18 @@ textarea {
     }
 
     .nome2 {
-        font-size: 60px;
-        margin-right: 100px;
+        font-size: 70px;
+        margin-right: 50px;
     }
 
     /* botão de menu*/
-    #area-menu-btn2 a {}
+    #area-menu-btn2 {
+        background: #2b82f6;
+        border-radius: 10px;
+        transition: ease 0.9s;
+    }
 
     #BotaoMenu2 i {
-        background: #5a5a5a;
         color: #cbd5e1;
         font-size: 45px;
         padding: 20px;
@@ -933,11 +932,13 @@ textarea {
     }
 
     #BotaoMenu2 i:hover {
-        transform: translateY(-2px);
-        transition: all 0.5s;
-        color: #353232;
+        transition: all 0.9s;
+        color: #020617;
     }
 
+    #area-menu-btn2:hover {
+        transform: translateY(-3px);
+    }
 
 
     /*conteudo de menu lateral*/
@@ -1021,7 +1022,7 @@ textarea {
         margin-top: 40%;
         margin-left: 3%;
         margin-right: 3%;
-        background: #242222;
+        background: #1e293b;
         color: #cbd5e1;
         box-shadow: 0, 25px, 35px, rgba(0, 0, 0, 0.5);
         padding: 15px 5px 15px 5px;
@@ -1039,7 +1040,7 @@ textarea {
         padding-top: 10px;
         padding-bottom: 10px;
         letter-spacing: 5px;
-        font-size: 62px;
+        font-size: 75px;
     }
 
     .falando-de-mim p {
@@ -1084,9 +1085,9 @@ textarea {
     }
 
     /*itens do card*/
-    .calculadora {
+    .Site-planejamento {
         color: #cbd5e1;
-        background: #242222;
+        background: #1e293b;
         display: flex;
         flex-flow: column wrap;
         align-items: center;
@@ -1101,7 +1102,7 @@ textarea {
     .App_Clima {
         margin-top: 30px;
         color: #cbd5e1;
-        background: #242222;
+        background: #1e293b;
         display: flex;
         flex-flow: column wrap;
         align-items: center;
@@ -1115,7 +1116,7 @@ textarea {
     .pagina_login {
         margin-top: 30px;
         color: #cbd5e1;
-        background: #242222;
+        background: #1e293b;
         display: flex;
         flex-flow: column wrap;
         align-items: center;
@@ -1167,11 +1168,11 @@ textarea {
 
     .cardsH div {
         margin-top: 5%;
-        background: #464646;
+        background: #1e293b;
         width: 450px;
         height: 37vh;
         border-radius: 20px;
-        border: solid 3px #848484;
+        border: solid 3px #0a0a0a;
         padding: 15px;
         box-shadow: 0px 0px 0px 0.5px rgba(0, 0, 0, 0.5);
         display: flex;
@@ -1227,7 +1228,7 @@ textarea {
         height: auto;
         width: 500px;
         box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.6);
-        background: #353232;
+        background: #1e293b;
         color: #cbd5e1;
         padding: 20px;
         border-radius: 25px;
@@ -1248,7 +1249,7 @@ textarea {
         height: auto;
         width: 500px;
         box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.6);
-        background: #353232;
+        background: #1e293b;
         color: #cbd5e1;
         padding: 20px;
         border-radius: 25px;
@@ -1264,7 +1265,8 @@ textarea {
     /*estudos*/
 
     .estudando {
-        background: #353232;
+        transition: ease 2s;
+        background: #1e293b;
         text-align: center;
         margin-top: 30px;
         margin-left: 3.5%;
@@ -1272,7 +1274,7 @@ textarea {
         justify-content: center;
         align-items: center;
         flex-flow: column;
-        padding: 0;
+        padding: 5px;
         width: 520px;
         box-shadow: 0 0 1px 2px rgba(0, 0, 0, 0.6);
         border-radius: 25px;
@@ -1396,7 +1398,7 @@ textarea {
         width: 420px;
         height: 290px;
         color: #cbd5e1;
-        background: #242222;
+        background: #1e293b;
         border-radius: 10px;
         margin-top: 1em;
         margin-left: 0;
@@ -1426,7 +1428,7 @@ textarea {
     .redes a {
         border-radius: 5px;
         padding: 15px 40px;
-        background: #343434;
+        background: #2b82f6;
         margin-top: 0.5em;
         margin-bottom: 0;
     }

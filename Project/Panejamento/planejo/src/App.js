@@ -9,6 +9,9 @@ import Projetos from "./Components/pages/Projetos";
 function App() {
   return (
     <div className="App">
+
+      <Nav />
+
       <Router>
         <Routes>
           <Route path="/" element={<Editar />} />
@@ -16,6 +19,8 @@ function App() {
           <Route path="Projetos" element={<Projetos />} />
           <Route path="/NewProjetos" element={<NewProject />} />
         </Routes>
+
+        <Footer />
       </Router>
     </div>
   );

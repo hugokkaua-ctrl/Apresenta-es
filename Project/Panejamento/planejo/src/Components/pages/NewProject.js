@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom"
 function NewProject() {
 
 
-    function createPost() {
+    function createPost(project) {
 
     }
 

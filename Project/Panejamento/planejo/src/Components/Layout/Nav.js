@@ -4,9 +4,9 @@ import { Link } from "react-router-dom"
 function Nav() {
     return (
         <div className={style.nav}>
-            <h1>MADRID</h1>
+            <h1>PLANJEMENT</h1>
             <ul className={style.list}>
-                <li></li>
+                <li>Planejamentos</li>
             </ul>
         </div>
     )

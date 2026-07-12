@@ -3,7 +3,7 @@ import ServiceCard from "../Services/ServiceCard"
 import Loading from "../Layout/Loading"
 import Container from "../Layout/Container"
 import Project from "../Projects/Project"
-import ServiceForm from "../Services/serviceForm"
+import ServiceForm from "../Services/ServiceForm"
 import Mensagem from "../Layout/Mensagem"
 
 

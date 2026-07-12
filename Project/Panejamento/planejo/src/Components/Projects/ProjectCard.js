@@ -11,7 +11,7 @@ function ProjectCard({ id, name, budget, category, handleDelet }) {
                 <p></p>
             </div>
 
-            <Link to={ }>Editar</Link>
+            <Link to={`/Editar/${id}`}>Editar</Link>
 
             <button>Excluir</button>
         </div>

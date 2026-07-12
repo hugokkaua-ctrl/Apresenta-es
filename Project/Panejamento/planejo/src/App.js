@@ -5,6 +5,7 @@ import Footer from "./Components/Layout/Footer";
 import Home from "./Components/pages/Home";
 import NewProject from "./Components/pages/NewProject";
 import Projetos from "./Components/pages/Projetos";
+import Editar from "./Components/pages/Editar";
 
 function App() {
   return (
@@ -14,14 +15,15 @@ function App() {
 
       <Router>
         <Routes>
-          <Route path="/" element={<Editar />} />
+          <Route path="/" element={<Home />} />
           <Route path="/Editar/:id" elemen={<Editar />} />
           <Route path="Projetos" element={<Projetos />} />
           <Route path="/NewProjetos" element={<NewProject />} />
         </Routes>
-
-        <Footer />
       </Router>
+
+      <Footer />
+
     </div>
   );
 }

@@ -1,7 +1,5 @@
 import { useState } from "react"
-import style from "../projects/Project.module.css"
 import Input from "../Form/Input"
-import Submit from "../Form/Submit"
 
 function ServiceForm({ handleSubmit, btnText, projectData }) {
 
@@ -15,7 +13,7 @@ function ServiceForm({ handleSubmit, btnText, projectData }) {
     }
 
     return (
-        <form onSubmit={ } className={style.form}>
+        <form onSubmit={submit} >
             <Input
                 type="text"
                 name="name"

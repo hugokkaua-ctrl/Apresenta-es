@@ -3,8 +3,8 @@ import Input from "../Form/Input"
 import { useEffect, useState } from "react"
 
 function Project({ handleSubmit, projectData, btnText }) {
-
-
+    const [project, setProject] = useState(projectData || [])
+    const [categories, setCategories] = useState([])
 
     const submit = (e) => {
 
@@ -16,10 +16,10 @@ function Project({ handleSubmit, projectData, btnText }) {
     return (
         <div>
 
-            <form onSubmit={ }>
-                <Input type="text" name="name" id="nome" placeHolder="Fale seu " handleOnChange={ } value={ } />
-                <Input type="text" name="budget" id="Numero" placeHolder="Fale seu " handleOnChange={ } value={ } />
-                <Select name="category" options={ } handleOnChange={ } value={ } />
+            <form onSubmit={submit}>
+                <Input type="text" name="name" id="nome" placeHolder="Fale seu " handleOnChange={handleChange} value={project.name ? project.name : ""} />
+                <Input type="text" name="budget" id="Numero" placeHolder="Fale seu " handleOnChange={handleChange} value={project.budget ? project.budget : ""} />
+                <Select name="category" options={categories} handleOnChange={handleCategory} value={project.category ? project.category.id : ""} />
                 <button type=" submit">{btnText}</button>
             </form>
         </div>

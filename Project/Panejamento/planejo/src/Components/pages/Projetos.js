@@ -6,7 +6,8 @@ import { Link, useLocation } from "react-router-dom"
 import { useEffect, useState } from "react"
 
 function Projetos() {
-
+    const location = useLocation()
+    const message = location.state?.message
     const [project, setProject] = useState([])
     const [deletLoading, setDeletLoading] = useState(false)
     const [projectMessage, setProjectMessage] = useState('')
@@ -22,8 +23,8 @@ function Projetos() {
                 <Link></Link>
             </div>
 
-            {<Mensagem type="" msg={ } />}
-            {<Mensagem type="" msg={ } />}
+            {message && <Mensagem type="sucess" msg={message} />}
+            {projectMessage && <Mensagem type="sucess" msg={projectMessage} />}
 
             <Container >
 

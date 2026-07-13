@@ -1,9 +1,18 @@
-.nav {}
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
 
-.nav h1 {}
+.nav h1 {
+    font-size: 30px;
+    color: #570099;
+}
 
 .list {}
 
 .list li {}
 
-.list a {}
+.list a {
+    color: #570099;
+    text-decoration: none;
+}

@@ -4,11 +4,12 @@ import { Link } from "react-router-dom"
 function Nav() {
     return (
         <div className={style.nav}>
-            <h1>PLANJEMENT</h1>
+            <h1>PLANEJEMENT</h1>
             <ul className={style.list}>
-                <li>Planejamentos</li>
+                <li><Link>Planejamento</Link></li>
+                <li><Link>Home</Link></li>
             </ul>
-        </div>
+        </div >
     )
 }
 

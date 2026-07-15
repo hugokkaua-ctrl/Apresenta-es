@@ -352,7 +352,7 @@ textarea {
 .projetos h1 {
     color: #cbd5e1;
     text-align: center;
-    font-size: 80px;
+    font-size: 90px;
     margin-bottom: 5px;
     letter-spacing: 2px;
 }
@@ -492,7 +492,7 @@ textarea {
     color: #cbd5e1;
     margin-bottom: 0;
     padding-bottom: 0;
-    font-size: 70px;
+    font-size: 95px;
 }
 
 .habilidades p {
@@ -553,9 +553,11 @@ textarea {
 
 .forma-estud h1 {
     color: #cbd5e1;
-    font-size: 60px;
+    font-size: 90px;
     text-align: right;
     margin-right: 4%;
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
 
 /*caixas do form-stud*/

@@ -7,11 +7,20 @@ function Project({ handleSubmit, projectData, btnText }) {
     const [categories, setCategories] = useState([])
 
     const submit = (e) => {
-
+        e.preventDefault()
     }
 
-    function handleChange(e) { }
-    function handleCategory(e) { }
+    function handleChange(e) {
+        setProject({ ...project, [e.target.name]: e.target.value })
+    }
+    function handleCategory(e) {
+        setProject({
+            ...project, category: {
+                id: e.target.value,
+                name: e.target.options[e.target.selectedIndex].text
+            }
+        })
+    }
 
     return (
         <div>

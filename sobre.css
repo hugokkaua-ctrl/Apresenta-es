@@ -757,6 +757,11 @@ textarea {
     color: #cbd5e1;
 }
 
+.contato a {
+    text-decoration: none;
+    color: white;
+}
+
 /*formulario dos contatos*/
 .formulario {
     border-radius: 5px;

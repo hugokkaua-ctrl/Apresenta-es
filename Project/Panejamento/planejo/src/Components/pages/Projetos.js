@@ -13,8 +13,36 @@ function Projetos() {
     const [projectMessage, setProjectMessage] = useState('')
 
     useEffect(() => {
-
+        setTimeout(() => {
+            fetch(`http://localhost:5000/project`, {
+                method: "GET",
+                headers: {
+                    "Content-Type": "application/json"
+                }
+            })
+                .then((resp) => resp.json())
+                .then((data) => {
+                    setProject(data)
+                    setDeletLoading(true)
+                })
+                .catch((err) => console.log(err))
+        }, 1000);
     }, [])
+
+    function deletar(id) {
+        fetch(`http://localhost:5000/project/${id}`, {
+            method: "DELETE",
+            headers: {
+                "Content-Type": "application/json"
+            }
+        })
+            .then((resp) => resp.json())
+            .then((data) => {
+                setProject(project.filter((project) => project.id !== id))
+                setProjectMessage("deletado")
+            })
+            .catch((err) => console.log(err))
+    }
 
     return (
         <div>
@@ -27,7 +55,20 @@ function Projetos() {
             {projectMessage && <Mensagem type="sucess" msg={projectMessage} />}
 
             <Container >
-
+                {project.length > 0 && (
+                    project.map((project) => {
+                        <ProjectCard
+                            id={project.id}
+                            name={project.name}
+                            budget={project.budget}
+                            category={project.category?.name}
+                            key={project.id}
+                            handleDelet={deletar}
+                        />
+                    })
+                )}
+                {!deletLoading && (<Loading />)}
+                {!deletLoading && project.length === 0 && (<h2>não há</h2>)}
             </Container>
         </div>
     )

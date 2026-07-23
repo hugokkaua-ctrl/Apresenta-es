@@ -133,6 +133,7 @@ function enviar() {
         mensagemErro.style.display = "flex"
     } else {
         mensagem.style.display = "flex"
+        window.location.href = "/Project/Login/home.html"
     }
 
     mensagem.style.display = "flex"

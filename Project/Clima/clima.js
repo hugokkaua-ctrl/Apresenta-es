@@ -8,6 +8,7 @@ const local = document.querySelector("#local")
 const claro = document.getElementById("claro")
 const escuro = document.getElementById("escuro")
 
+//////////
 const apiKey = "0408e36a5540998e1080d2e39c65cc17";
 
 const getWatherDate = async (city) => {
@@ -43,7 +44,7 @@ butao.addEventListener("click", async (e) => {
     ShowerData(cidade);
 })
 
-
+///////////
 
 function HorasDate() {
     setInterval(function () {

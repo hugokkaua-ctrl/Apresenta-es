@@ -2,6 +2,10 @@ import style from "./ProjectCard.module.css"
 import { Link } from "react-router-dom"
 
 function ProjectCard({ id, name, budget, category, handleDelet }) {
+    const deletar = (e) => {
+        e.preventdefault()
+        handleDelet(id)
+    }
 
     return (
         <div>
@@ -13,7 +17,7 @@ function ProjectCard({ id, name, budget, category, handleDelet }) {
 
             <Link to={`/Editar/${id}`}>Editar</Link>
 
-            <button>Excluir</button>
+            <button onClick={deletar}>Excluir</button>
         </div>
     )
 }

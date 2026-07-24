@@ -19,14 +19,48 @@ function Editar() {
     const [type, setType] = useState('')
 
     useEffect(() => {
+        setTimeout(() => {
 
-    }, [])
+        }, 1000);
+    }, [id])
 
+    function editPost(project) { }
 
+    function togleProject() {
+        setShowProject(!showProject)
+    }
 
     return (
         <>
-            { }
+            {project.name ? (
+                <div>
+                    <div>
+
+                        <div>
+                            <div>
+                                <h2></h2>
+                                <button></button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div>
+                                <h2></h2>
+                                <button></button>
+                            </div>
+                        </div>
+
+                        <div>
+                            <div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            ) : (
+                <Loading />
+            )}
         </>
     )
 }

@@ -13,6 +13,16 @@ html {
     min-height: 80vh;
 }
 
+.nav {}
+
+.footer {}
+
+.boxCenter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 #titulo {
     margin-top: 0;
 }
@@ -22,30 +32,53 @@ html {
     font-size: 100px;
 }
 
-#criar {
+.criar {
     margin-top: 0;
 }
 
-#criar a {
+.criar a {
     border: solid 1px #200F07;
-    padding: 10px 60px 10px 60px;
     border-radius: 20px;
+    padding: 7px 60px 7px 60px;
     background: #200F07;
     text-decoration: none;
     color: #C5E284;
-    font-size: 60px;
+    font-size: 40px;
     transition: ease 1s;
+    margin-left: 1em;
 }
 
-#criar a:hover {
+.criar button {
     border: solid 1px #702806;
+    padding: 7px 0px 7px 0px;
+    border-radius: 20px;
+    width: 300px;
+    background: #702806;
+    text-decoration: none;
+    color: #C5E284;
+    font-size: 40px;
+    transition: ease 1s;
+    margin-right: 1em;
+}
+
+.criar a:hover {
     color: #C5E284;
     background: #702806;
-    transform: translateY(-10px);
+    transform: translateY(-2px);
 }
 
+.criar button:hover {
+    color: #C5E284;
+    background: #200F07;
+    transform: translateY(-2px);
+}
+
+
+
+
+/*HORAs*/
 #tempo {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     flex-direction: column;

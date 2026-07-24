@@ -1,7 +1,6 @@
 const tempo = document.getElementById("tempo")
 
 function abrir() {
-
     const horas = document.getElementById("horas")
     const dias = document.getElementById("dias")
 
@@ -18,4 +17,8 @@ function abrir() {
         horas.innerHTML = hora + ":" + minuto + ":" + segundo
         dias.innerHTML = semanas
     }, 1000)
+}
+
+function abrirTemp() {
+    tempo.style.display = "block"
 }

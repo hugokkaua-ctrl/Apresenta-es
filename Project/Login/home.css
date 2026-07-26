@@ -10,18 +10,66 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 80vh;
+    height: 80vh;
 }
 
-.nav {}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #4a2c20;
+    position: absolute;
+    top: 15px;
+    width: 95vw;
+    padding: 0px 10px 0px 10px;
+    border-radius: 35px;
+}
 
-.footer {}
 
-.boxCenter {
+
+.header_nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header_nav div {
+    align-items: first baseline;
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
+
+.header_nav h2 {
+    font-size: 20px;
+    color: #C5E284;
+    margin-top: -30px;
+}
+
+.header_nav h1 {
+    color: #f8f4ec;
+    font-size: 55px;
+    margin-left: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btns_nav {}
+
+.btns_nav a {}
+
+.footer {
+    background: #200F07;
+    position: absolute;
+    bottom: 15px;
+    width: 95vw;
+    padding: 0px 10px 0px 10px;
+    border-radius: 15px;
+}
+
+.footer h1 {
+    color: #f8f4ec;
+}
+
 
 #titulo {
     margin-top: 0;
@@ -74,6 +122,27 @@ html {
 }
 
 
+.boxCenter {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    padding: 10px;
+}
+
+.boxCenter h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+
+    max-width: 100%;
+}
 
 
 /*HORAs*/
@@ -126,4 +195,13 @@ html {
 #open i {
     padding: 10px;
     font-size: 40px;
+}
+
+/*IMAGENS*/
+#imgCafe {
+    width: 200px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: -80px;
 }

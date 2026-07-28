@@ -81,12 +81,33 @@ html {
     width: 95vw;
     padding: 0px 10px 0px 10px;
     border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
 }
 
-.footer h1 {
+.endereco {}
+
+.endereco h2 {
     color: #f8f4ec;
 }
 
+.celular {}
+
+.celular h2 {
+    color: #f8f4ec;
+}
+
+.instagram {}
+
+.instagram h2 {
+    color: #f8f4ec;
+}
+
+.direitos {}
+
+.direitos h2 {
+    color: #f8f4ec;
+}
 
 #titulo {
     margin-top: 0;

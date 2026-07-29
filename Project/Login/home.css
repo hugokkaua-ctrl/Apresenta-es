@@ -79,35 +79,94 @@ html {
     position: absolute;
     bottom: 15px;
     width: 95vw;
-    padding: 0px 10px 0px 10px;
+    padding: 25px 10px 25px 10px;
     border-radius: 15px;
     display: flex;
     justify-content: space-between;
 }
 
-.endereco {}
+.barra_footer {
+    border: solid 2px #C5E284;
+}
+
+/*ENDEREÇO*/
+.endereco {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.endereco i {
+    font-size: 40px;
+    color: #C5E284;
+    margin-right: 10px;
+}
 
 .endereco h2 {
     color: #f8f4ec;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.celular {}
+/*CELULAR*/
+.celular {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.celular i {
+    font-size: 40px;
+    color: #C5E284;
+    margin-right: 10px;
+}
 
 .celular h2 {
     color: #f8f4ec;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.instagram {}
+/*INSTAGRAM*/
+.instagram {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.instagram i {
+    font-size: 40px;
+    color: #C5E284;
+    margin-right: 10px;
+}
 
 .instagram h2 {
     color: #f8f4ec;
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
-.direitos {}
+/*DIREITOS*/
+.direitos {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.direitos i {
+    font-size: 40px;
+    color: #C5E284;
+    margin-right: 10px;
+}
 
 .direitos h2 {
     color: #f8f4ec;
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
 
 #titulo {
     margin-top: 0;

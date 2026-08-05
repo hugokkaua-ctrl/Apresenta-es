@@ -11,7 +11,7 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 80vh;
+    height: 100vh;
 }
 
 
@@ -43,7 +43,7 @@ html {
 
 .header_nav h2 {
     font-size: 20px;
-    color: #C5E284;
+    color: #8fd100;
     margin-top: -30px;
 }
 
@@ -72,8 +72,8 @@ html {
 
 .btns_nav a:hover {
     transform: translateY(-5px);
-    color: #C5E284;
-    border-bottom: 2px solid #C5E284;
+    color: #8fd100;
+    border-bottom: 2px solid #8fd100;
 }
 
 .footer {
@@ -88,7 +88,7 @@ html {
 }
 
 .barra_footer {
-    border: solid 2px #C5E284;
+    border: solid 2px #8fd100;
 }
 
 /*ENDEREÇO*/
@@ -101,7 +101,7 @@ html {
 
 .endereco i {
     font-size: 40px;
-    color: #C5E284;
+    color: #8fd100;
     margin-right: 10px;
 }
 
@@ -120,7 +120,7 @@ html {
 
 .celular i {
     font-size: 40px;
-    color: #C5E284;
+    color: #8fd100;
     margin-right: 10px;
 }
 
@@ -139,7 +139,7 @@ html {
 
 .instagram i {
     font-size: 40px;
-    color: #C5E284;
+    color: #8fd100;
     margin-right: 10px;
 }
 
@@ -159,7 +159,7 @@ html {
 
 .direitos i {
     font-size: 40px;
-    color: #C5E284;
+    color: #8fd100;
     margin-right: 10px;
 }
 
@@ -169,27 +169,96 @@ html {
     margin-bottom: 0;
 }
 
+.margem {
+    height: 540px;
+    border-radius: 30px;
+    padding: 15px;
+    border: solid 4px #8fd100;
+    box-shadow: 0px 0px 4px 0px #200F07;
+}
+
+
+.boxCenter {
+    background: #FFF8EF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 560px;
+    padding: 30px;
+    border-radius: 30px;
+    margin-bottom: -30px;
+    box-shadow: 1px 1px 5px 0px #200F07;
+}
+
+.boxCenter img {
+    width: 520px;
+    margin-bottom: -120px;
+
+    margin-top: -30px;
+}
+
+.divisaCardPrincipal {
+    margin-top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3px;
+    border-right: 200px solid #8fd100;
+    border-left: 200px solid #8fd100;
+}
+
+.divisaCardPrincipal i {
+    width: 50px;
+    font-size: 25px;
+    color: #8fd100;
+    margin-right: -10px;
+    margin-left: -10px;
+}
+
+.messageCardPrincipal {
+    margin-bottom: 5px;
+}
+
+.messageCardPrincipal h3 {
+    margin-top: 5px;
+    font-size: 30px;
+    color: #8fd100;
+}
 
 #titulo {
     margin-top: 0;
+    margin-bottom: 0px;
 }
 
-#titulo h1 {
+#titulo h2 {
     color: #200F07;
-    font-size: 100px;
+    font-size: 70px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 1.2;
+    white-space: normal;
+    word-break: break-word;
+    overflow-wrap: break-word;
+    margin-bottom: 20px;
+    max-width: 100%;
 }
 
 .criar {
-    margin-top: 0;
+    margin-top: -10px;
+    margin-bottom: 0px;
 }
 
 .criar a {
+    display: inline-block;
+    flex-direction: column;
     border: solid 1px #200F07;
     border-radius: 20px;
     padding: 7px 60px 7px 60px;
     background: #200F07;
     text-decoration: none;
-    color: #C5E284;
+    color: #8fd100;
     font-size: 40px;
     transition: ease 1s;
     margin-left: 1em;
@@ -202,46 +271,24 @@ html {
     width: 300px;
     background: #702806;
     text-decoration: none;
-    color: #C5E284;
+    color: #8fd100;
     font-size: 40px;
     transition: ease 1s;
     margin-right: 1em;
 }
 
 .criar a:hover {
-    color: #C5E284;
+    color: #8fd100;
     background: #702806;
     transform: translateY(-2px);
 }
 
 .criar button:hover {
-    color: #C5E284;
+    color: #8fd100;
     background: #200F07;
     transform: translateY(-2px);
 }
 
-
-.boxCenter {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    padding: 10px;
-}
-
-.boxCenter h1 {
-    font-size: 2.8rem;
-    font-weight: bold;
-    text-align: center;
-    line-height: 1.2;
-    white-space: normal;
-    word-break: break-word;
-    overflow-wrap: break-word;
-
-    max-width: 100%;
-}
 
 
 /*HORAs*/
@@ -267,13 +314,13 @@ html {
 
 #horas {
     font-size: 30px;
-    color: #C5E284;
+    color: #8fd100;
     margin-bottom: 0;
 }
 
 #dias {
     font-size: 30px;
-    color: #C5E284;
+    color: #8fd100;
     margin-top: 0;
 }
 
@@ -282,7 +329,7 @@ html {
     right: 50px;
     position: fixed;
     background: #200F07;
-    color: #C5E284;
+    color: #8fd100;
     border-radius: 100%;
     cursor: pointer;
 }
@@ -309,11 +356,12 @@ html {
 
 .detalhes i {
     margin-right: 1em;
-    font-size: 40px;
+    font-size: 30px;
     color: #8fd100;
 }
 
 .detalhes h2 {
+    font-size: 20px;
     color: #200F07
 }
 
@@ -328,4 +376,14 @@ html {
     margin-top: 0;
     margin-bottom: 0;
     margin-right: -80px;
+}
+
+#fundo_cafe {
+    opacity: 1000px;
+    z-index: -1;
+    position: fixed;
+    width: 750px;
+    padding: 0;
+    bottom: 60px;
+    right: -195px;
 }

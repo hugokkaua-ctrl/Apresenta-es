@@ -1,0 +1,11 @@
+.boxPrincipal {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.navBar {}
+
+.footer {}

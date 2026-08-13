@@ -81,12 +81,111 @@
     border-bottom: 2px solid #f8f4ec;
 }
 
+
+
+/*//////*/
+
+
 .footer {
-    display: flex;
-    align-items: center;
     margin-left: -8px;
+    background: #72d416;
+    position: absolute;
+    bottom: 15px;
     width: 100vw;
+    padding: 25px 10px 25px 10px;
+    display: flex;
+    justify-content: space-between;
+
     bottom: 0;
     position: fixed;
-    background: #9ae851;
+}
+
+.barra_footer {
+    border: solid 2px #200F07;
+}
+
+/*ENDEREÇO*/
+.endereco {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.endereco i {
+    font-size: 40px;
+    color: #200F07;
+    margin-right: 10px;
+}
+
+.endereco h2 {
+    color: #f8f4ec;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*CELULAR*/
+.celular {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.celular i {
+    font-size: 40px;
+    color: #200F07;
+    margin-right: 10px;
+}
+
+.celular h2 {
+    color: #f8f4ec;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*INSTAGRAM*/
+.instagram {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.instagram i {
+    font-size: 40px;
+    color: #200F07;
+    margin-right: 10px;
+}
+
+.instagram h2 {
+    color: #f8f4ec;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*DIREITOS*/
+.direitos {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.direitos i {
+    font-size: 40px;
+    color: #200F07;
+    margin-right: 10px;
+}
+
+.direitos h2 {
+    color: #f8f4ec;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.margem {
+    height: 540px;
+    border-radius: 30px;
+    padding: 15px;
+    border: solid 4px #200F07;
+    box-shadow: 0px 0px 4px 0px #200F07;
 }

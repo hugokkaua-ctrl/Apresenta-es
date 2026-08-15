@@ -1,13 +1,10 @@
 .boxPrincipal {
-    height: 80vh;
+    margin-top: 180px;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
 }
-
-.boxCenter {}
-
 
 
 .navBar {
@@ -17,7 +14,7 @@
     background: #9ae851;
     position: absolute;
     top: 15px;
-    width: 95vw;
+    width: 100%;
 
     margin-left: -8px;
     width: 100vw;
@@ -89,15 +86,14 @@
 .footer {
     margin-left: -8px;
     background: #72d416;
-    position: absolute;
-    bottom: 15px;
-    width: 100vw;
-    padding: 25px 10px 25px 10px;
+    margin-bottom: 0;
+    bottom: 0;
+    position: fixed;
+    width: 97vw;
+    padding: 25px;
     display: flex;
     justify-content: space-between;
 
-    bottom: 0;
-    position: fixed;
 }
 
 .barra_footer {
@@ -119,7 +115,7 @@
 }
 
 .endereco h2 {
-    color: #f8f4ec;
+    color: #200F07;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -138,7 +134,7 @@
 }
 
 .celular h2 {
-    color: #f8f4ec;
+    color: #200F07;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -157,7 +153,7 @@
 }
 
 .instagram h2 {
-    color: #f8f4ec;
+    color: #200F07;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -177,7 +173,7 @@
 }
 
 .direitos h2 {
-    color: #f8f4ec;
+    color: #200F07;
     margin-top: 0;
     margin-bottom: 0;
 }
@@ -189,3 +185,14 @@
     border: solid 4px #200F07;
     box-shadow: 0px 0px 4px 0px #200F07;
 }
+
+
+.boxCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Descricao {}
+
+.imagem {}

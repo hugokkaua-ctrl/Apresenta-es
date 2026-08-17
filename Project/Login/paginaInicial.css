@@ -200,6 +200,7 @@ body {
 
 
 .boxCenter {
+    margin-top: -80px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -213,12 +214,22 @@ body {
 }
 
 .Descricao h1 {
-    font-size: 60px;
+    color: #200F07;
+    font-size: 65px;
     margin-bottom: 0;
 }
 
-.Descricao p {}
+.Descricao p {
+    margin-top: 0;
+    font-size: 22px;
+    text-align: left;
+}
 
 .imagem {
+    margin-top: 0;
     margin-right: 1em;
+}
+
+.imagem img {
+    padding: 0;
 }

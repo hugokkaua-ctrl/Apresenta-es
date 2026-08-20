@@ -234,4 +234,75 @@ body {
     padding: 0;
 }
 
+
+.btns_descricao {
+    margin-left: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Endereco {}
+
+.Endereco i {
+    font-size: 22px;
+}
+
+.Endereco a {
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    color: #200F07;
+    transition: ease 1s;
+}
+
+.Endereco a:hover {
+    transform: translateY(-3px);
+    color: #72d416;
+    border-bottom: 2px solid #200F07;
+}
+
+
+.insta {}
+
+.insta i {
+
+    font-size: 22px;
+}
+
+.insta a {
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    color: #200F07;
+    transition: ease 1s;
+}
+
+.insta a:hover {
+    transform: translateY(-3px);
+    color: #72d416;
+    border-bottom: 2px solid #200F07;
+}
+
+.number {}
+
+.number i {
+    font-size: 22px;
+}
+
+.number a {
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: bold;
+    color: #200F07;
+    transition: ease 1s;
+}
+
+.number a:hover {
+    transform: translateY(-3px);
+    color: #72d416;
+    border-bottom: 2px solid #200F07;
+}
+
+
 .cardapio-bebidas {}
